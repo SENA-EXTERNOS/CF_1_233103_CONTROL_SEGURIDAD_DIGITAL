@@ -1,14 +1,9 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 7%
+    right: 42%
 
 
 @keyframes float1
@@ -17,3 +12,129 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)  
+
+//**/ Intro //**/
+
+.color-intro 
+  color: #0D2380
+
+  
+  
+//**/ Tema 1 //**/
+
+.imagen-decorativa-1
+  animation: float1 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 178rem
+  right: 2%
+  width: 38%  
+
+.imagen-decorativa-2
+  animation: float1 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 250rem
+  right: 59%
+  width: 38%  
+
+.imagen-decorativa-3
+  position: absolute
+  top: 469rem
+  right: 62%
+  width: 35%     
+
+.lista-ul--color_t1 
+  color: #FC502D
+
+
+.cajon.color-t1
+  background-color: #0D2380
+  position: relative
+.color-cajon-t1
+  color: #FFFFFF
+
+.cajon.color-t11
+  background-color: #E4E6F1
+  position: relative 
+
+.cajon.color-t11:before 
+  content: ''
+  display: block
+  width: 25px
+  height: 10px
+  position: absolute
+  top: 0
+  left: 0
+  background-color: #FC502D
+
+.cajon.tema13 
+  margin-left: 10%
+  margin-right: 10%
+  
+.acor-t14 
+  margin-left: 9%
+  margin-right: 2%
+  width: 100%
+
+.tarjeta--azul 
+  background-color: #DADEEC
+
+.titulo-1
+  margin-left: 18%
+.titulo-11
+  margin-left: 2% 
+.titulo-12
+  margin-left: 8%    
+   
+
+
+//**/ Tema 2 //**/
+
+.cajon.color-t2
+  background-color: #FFF2BF
+  position: relative 
+
+.cajon.color-t2:before 
+  content: ''
+  display: block
+  width: 25px
+  height: 10px
+  position: absolute
+  top: 0
+  left: 0
+  background-color: #FC502D
+
+///////// Card hover --------------------------------------
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #fff2bfbd
+    
+     
+
+
+  .crd_hover_txt--body
+      p
+        font-size: 0.85em  
+  
+
+    
