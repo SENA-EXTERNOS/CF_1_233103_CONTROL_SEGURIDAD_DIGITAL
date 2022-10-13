@@ -90,7 +90,7 @@
         p Algunos conceptos también asociados al tema y que se deben conocer son:  
 
     .tarjeta.tarjeta--gris.p-4.mt-5
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="")
           .col-md-6
             figure
@@ -178,7 +178,7 @@
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>nformación verbal: </b>sinformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
+                    |  <b>Información verbal: </b>sinformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
                     |  <b>Medio físico papel: </b>información impresa o escrita en papel, que debe ser archivada físicamente para su preservación.
@@ -202,19 +202,17 @@
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>nformación verbal: </b>sinformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
+                    |  <b>Publico: </b>información poco crítica para la empresa; cualquier persona interna o externa a esta puede tener acceso a ella. Por ejemplo, portafolios de servicio, información comercial y publicidad.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
-                    |  <b>Medio físico papel: </b>información impresa o escrita en papel, que debe ser archivada físicamente para su preservación.
+                    |  <b>Uso interno: </b>limitado solo a quienes hacen parte de la empresa y con un valor bajo de confidencialidad.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Correos electrónicos: </b> sabarca todo tipo de información enviada por este medio, sea solo texto o con componentes multimedia.
+                    |  <b>Restringido: </b> es el nivel medido de confidencialidad, solo disponible para un grupo reducido de funcionarios de la empresa, por ejemplo, información exclusiva del área de sistemas o del área de compras.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Bases de datos: </b> grandes volúmenes de información que se guardan de forma digital en un formato o estructura en específico, que puede ser administrada y consultada mediante algún tipo de software de base de datos.
-                  li  
-                    i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Documentos electrónicos: </b> son documentos generados
+                    |  <b>Confidencial: </b> Información altamente sensible a la que solo debe tener acceso un grupo muy reducido de personas, como secretos de producción industrial, códigos de programación, configuración de equipos de red y contraseñas.
+
 
           .row(titulo="Según área de interés: ")
             .col-md-6

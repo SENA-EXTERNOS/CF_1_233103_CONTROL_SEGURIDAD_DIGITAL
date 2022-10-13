@@ -19,7 +19,7 @@
                   h3.mb-1 Información de calidad
                   p.text-small Para conocer a detalle sobre cuáles son las características de una información de alta calidad, ver el siguiente documento.  
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_ANEXO1_información_de_calidad.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
         
@@ -27,7 +27,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Técnicas para la recolección de información    
     
-    .row
+    .row.cajon.tema13
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -87,7 +87,7 @@
                   h3.mb-1 Pasos para la observación 
                   p.text-small Para reconocer el procedimiento para recolectar información a través de la observación y con detalle los pasos que debe realizar en el proceso de observación, ver el documento.   
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_Anexo2_pasos_de_la_observación.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -100,7 +100,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-8
-            p  <b>Determinar los objetivos de la Entrevista/ Encuesta.</b>
+            p.color-intro <b>Determinar los objetivos de la Entrevista/ Encuesta.</b>
             p.mt-3 Definir el o los objetivos ¿qué se desea obtener al realizar la encuesta /entrevista?  
           
           .col-md-4.mb-4.mb-md-0
@@ -109,7 +109,7 @@
           
         .row
           .col-md-8
-            p  <b>Formular previamente las preguntas y respuestas para la encuesta, o solo las preguntas para la entrevista.</b>
+            p.color-intro <b>Formular previamente las preguntas y respuestas para la encuesta, o solo las preguntas para la entrevista.</b>
             p.mt-3 La calidad de las respuestas que se obtengan, dependerá en gran parte de las preguntas que se formulen. Estas deben ser directas, cortas y fáciles de comprender para el entrevistado/encuestado; deben ayudar a responder los objetivos planteados y el qué, cómo, cuándo y quién.
           
           .col-md-4.mb-4.mb-md-0
@@ -118,7 +118,7 @@
           
         .row
           .col-md-8
-            p  <b>Seleccione el público objetivo, medio, momento y lugar adecuados para realizar la entrevista/encuesta.</b>
+            p.color-intro <b>Seleccione el público objetivo, medio, momento y lugar adecuados para realizar la entrevista/encuesta.</b>
             p.mt-3 Es importante saber a quién o quienes se entrevistarán, su disponibilidad y relación con la temática a desarrollar. Poco sirven las preguntas bien elaboradas, si se realizan a personas que carecen de conocimiento sobre el tema.
           
           .col-md-4.mb-4.mb-md-0
@@ -127,7 +127,7 @@
           
         .row
           .col-md-8
-            p  <b>Realizar la encuesta siguiendo los protocolos y normas básicas de comunicación.</b>
+            p.color-intro <b>Realizar la encuesta siguiendo los protocolos y normas básicas de comunicación.</b>
             p.mt-3 Presentarse de ser necesario, explicar el propósito y precisar las instrucciones para realizar la actividad antes de iniciar, verificar o solicitar los datos del encuestado/entrevistado y si está de acuerdo con realizar dicha actividad.
             p.mt-3 Tener una actitud adecuada para la situación es clave, la apariencia y lenguaje deben transmitir confianza, profesionalismo y respeto a la otra persona. El uso de palabras que motiven al entrevistado/encuestado a responder de manera clara y sincera a las preguntas, además se debe estar atento a contestar dudas o hacer aclaraciones durante el proceso, si es el caso, se recomienda brindar copia del cuestionario y respuestas.
 
@@ -137,7 +137,7 @@
 
         .row
           .col-md-8
-            p  <b>Realice el análisis de la información recolectada.</b>
+            p.color-intro <b>Realice el análisis de la información recolectada.</b>
             p.mt-3 Con la información recolectada es importante realizar la organización y análisis, apoyándose en herramientas informáticas para realizar un estudio estadístico, creación de diagramas o  registrar las apreciaciones del proceso según sea el caso.
           
           .col-md-4.mb-4.mb-md-0
@@ -146,7 +146,7 @@
 
         .row
           .col-md-8
-            p  <b>Elaborar conclusiones finales e informe del proceso.</b>
+            p.color-intro <b>Elaborar conclusiones finales e informe del proceso.</b>
             p.mt-3 Con la información obtenida y producto del análisis se deben realizar las correspondientes conclusiones, enfocadas en responder a los objetivos planteados y a enunciar qué puntos han quedado pendientes o las nuevas preguntas que han surgido como resultado del proceso de investigar, es necesario plantearlas dentro de un informe que siga los estándares de la organización, donde además se pueda documentar y contar el proceso que se realizó para llegar a las mencionadas conclusiones.
 
           .col-md-4.mb-4.mb-md-0
@@ -211,96 +211,284 @@
             p <b>Procedimiento para implementación:</b> los pasos son bastante similares a los expuestos en métodos anteriores, se recomienda que el orden sea:
 
 
-   
-   
-    //beto
-    
-    
-
-    separador
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1  Herramientas de hardware y software
-
-
-    .row.mt-5
-      .col-lg-8            
-        p.mb-0 Para prevenir estos ataques informáticos se hace necesario el uso de una poderosa infraestructura de TI que ayude a detectar y frenar amenazas. En este ítem se describen algunos elementos que son parte de la infraestructura de TI para detectar y frenar amenaza.
-        p.mt-3 La seguridad informática y la seguridad de la información están encargadas de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de datos. Cuando se habla de procesos empresariales impulsados en la transformación digital con tecnología de punta, se entiende que están expuestos a diferentes vulnerabilidades, amenazas y ataques informáticos dirigidos a la seguridad y la privacidad de la información. Mediante la norma ISO 27001, la implementación del SGSI sigue el modelo Planificar – Hacer – Verificar – Actuar, para la mejora continua de los procesos.
-      .col-lg-4
-         img(src="@/assets/curso/temas/tema2/img5_tema2.svg", alt="alt")
-
-    .row.mt-3
-      .col-lg-12
-        p Sin embargo, la seguridad para las empresas es un tema cada vez más crítico y de preocupación constante, debido a que los ciberataques pueden ser tan catastróficos como un robo, explosión o un incendio.
-
-    .row.mt-3
-      .col-lg-12
-        p Algunos elementos que son parte de la infraestructura de TI para detectar y frenar amenazas son:
-   
     .row.mt-5
       .col-lg-12
-        SlyderB.mb-5(:datos="datosSlyder2")
+        h4 FALTA DEFINIR QUE TIPOS DE TARJETAS VAMOS A USAS!!!!
 
+    .row.mt-5
+      .col-lg-12
+        h4 Búsqueda en registros y bases de datos    
+   
+   
+    .row.cajon.tema13.mt-5
+      .col-lg-12
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img19_tema2.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 A través de redes e internet puede acceder de manera remota a fuentes de información de calidad, que considere necesarias para las consultas académicas y de carácter técnico.
+    
+    .row.mt-5
+      .col-lg-12
+          p Las siguientes son algunas opciones de búsqueda de información que encuentra en la web.
+   
+    .row.justify-content-center.mb-5
+      .col-lg-9.position-relative
+        h3.mb-4.text-center.txt--purpura  
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema2/img20_tema2.svg", alt="alt").img100
+            .col
+              h5 Las bases de datos
+              p.txt-t2 Son grandes plataformas donde se puede acceder a  información como artículos, revistas, libros de fuentes indexadas y algunas sobre temas específicos, es importante tener algo de dominio del tema sobre el que se consulta.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema2/img21_tema2.svg", alt="alt").img100
+            .col
+              p.txt-t22 <b>Google scholar</b>
+              p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
+        .crd.crd--avatarHorizontal2.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema2/img22_tema2.svg", alt="alt").img100
+            .col
+              h5 Mendeley
+              p.txt-t2 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema2/img23_tema2.svg", alt="alt").img100
+            .col
+              p.txt-t22 <b>Bases de datos públicas</b>
+              p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información; ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
+
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema2/img24_tema2.svg", alt="alt").img100
+            .col
+              h5 Biblioteca SENA
+              p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales mundialmente reconocidas.       
+    .row.mt-5
+      .col-lg-l12
+        h5 Otros métodos
+
+    .row.cajon.tema13.mt-5 
+      .cajon.color-t2.p-4
+        .row
+          .col-lg-10 
+            p Algunas recomendaciones sobre las fuentes de información presentes en la web que no tienen un carácter tan formal y científico como las mencionadas con anterioridad se listan a continuación. Importante considerar que al ser usadas correctamente pueden dar información valiosa.
+            ul.mt-3
+                  li 
+                    i.fas.fa-check.lista-ul--color_t1
+                    |  Verifique que los artículos citan referencias e incluya una bibliografía verificable.
+                  li  
+                    i.fas.fa-check.lista-ul--color_t1  
+                    | Compare la información sobre un mismo tema entre 2 o más fuentes para verificar que no existan contradicciones.
+                  li  
+                    i.fas.fa-check.lista-ul--color_t1
+                    |  Revise fechas de publicación, procure no usar información muy antigua.
+                  li  
+                    i.fas.fa-check.lista-ul--color_t1
+                    | Cualquier dato que vaya en contra de algún procedimiento o concepto técnico, científico o de seguridad no es confiable.
+
+    .row.mt-5
+      .col-lg-12
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema2/icon3_tema2.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Fuentes en la red
+                  p.text-small Para conocer a detalle los métodos, le invito a explorar el documento.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_anaexo3_fuentes_en_la_red.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download          
+    
+    .row.mt-5
+      .col-lg-12
+        h5 Buenas prácticas para la comunicación oral y escrita.  
+        p.mt-3 Para que en la organización la comunicación sea asertiva, es necesario crear en el personal hábitos de buenas prácticas para comunicarse.  
+    
+    .row.mt-5
+      .col-lg-4 
+        img(src="@/assets/curso/temas/tema2/img25_tema2.svg", alt="alt")           
+      .col-lg-8
+         p.mb-0 Para garantizar una comunicación asertiva en la organización, es necesario crear en el personal hábitos de buenas prácticas para expresarse.
+         p.mt-3.color-intro <b>Hacer clic en cada uno de los puntos para conocer la descripción de las buenas prácticas.</b>
+    
+    ImagenInfografica.color-primario.mt-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema2/img26_tema2.svg', alt='Texto que describa la imagen')
+          
+
+      .tarjeta.color-acento-botones-puntos.p-3(x="55%" y="11%" numero="")
+        p Comunicación efectiva para Da Silva (2020) se define como:
+        p.mt-3 Un mensaje que se comparte, recibe y comprende sin alterar su objetivo final. Es decir, el emisor y el receptor interpretan el mismo significado. De esta manera, se evitan dudas y confusiones, mientras que se cumplen las expectativas sobre lo que se ha transmitido.
+
+      .tarjeta.color-acento-botones-puntos.p-3(x="72%" y="35%" numero="")
+        p Usar los formatos y protocolos establecidos por la empresa: cada empresa debe tener ya diseñados sus instrumentos para la comunicación y recolección de información, procurar el uso de material oficial de la empresa, si este no existe, proponer un diseño e implementación.
+
+      .tarjeta.color-acento-botones-puntos.p-3(x="65%" y="71%" numero="")
+        p Se debe ser formal: el uso de modales a la hora de dirigirse a otros, también es necesario llevar un control y concretar los tiempos; por escrito, se debe usar el correo institucional o los medios dispuestos por la empresa, explicar los motivos de su búsqueda a quienes solicite algún tipo de colaboración, de manera que se eviten malos entendidos y afectar otros procesos.
+      
+      .tarjeta.color-acento-botones-puntos.p-3(x="36%" y="68%" numero="")
+        p Cuidar la redacción y ortografía: antes de enviar un documento o correo, verificar lo escrito, leer atentamente y pensar si será entendido fácilmente por la otra persona.
+      
+      .tarjeta.color-acento-botones-puntos.p-3(x="28%" y="32%" numero="")
+        p Usar los canales de comunicación adecuado: se debe evitar el abuso de las llamadas, WhatsApp y líneas personales de otros; implementar el uso de los canales oficiales establecidos por la empresa.
+      
+      .tarjeta.color-acento-botones-puntos.p-3(x="45%" y="43%" numero="")
+        p Recordar que la comunicación incluye la actitud, nivel y tono de voz, vocabulario, postura, gestos, calidad, incorporando los detalles de trabajos y presentaciones.
+    
+    
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2  Eventos e incidentes
+      h2 2.2 Instrumentos para la recolección de información 
+    
+    .row.cajon.tema13 
+      .cajon.color-t11.p-4
+        .row
+          .col-lg-10 
+            p Al inicio del contenido se definen los instrumentos como las herramientas o formatos establecidos para la recolección de información, en esta sección se amplía el concepto y se estudiarán pautas y buenas prácticas relacionadas a su diseño e implementación.
 
+    .row.mt-5
+      .col-lg-12
+        h5 Tipos de instrumentos 
+     
+    .row.justify-content-center.mb-5
+      .col-8.col-lg-4
+        p Para facilitar el análisis y la apropiación de los instrumentos es importante que este sea clasificado según:
+        figure
+          img(src="@/assets/curso/temas/tema2/img27_tema2.svg", alt="alt")
+      .col-lg-8
+        LineaTiempoD.color-acento-botones
+          p(numero="1" titulo="El área de uso: ") 
+            ul
+              li 
+                i.fas.fa-check.lista-ul--color_t1
+                |  Administrativos.
+              li  
+                i.fas.fa-check.lista-ul--color_t1  
+                | Para adquirir información o para fines de investigación.
+              li  
+                i.fas.fa-check.lista-ul--color_t1
+                |  De control: formatos y recursos para el control de procesos.
+
+          p(numero="2" titulo="El medio de implementación: ") <b>Físicos:</b> su uso y almacenamiento es normalmente físico, es decir sobre papel y puede ser digitalizable o no. <br><br> <b>Digitales:</b> se usan y almacenan de manera digital a través de un computador o dispositivo similar
+          
+          p(numero="3" titulo="El nivel de asociación: ") 
+            ul
+              li 
+                i.fas.fa-check.lista-ul--color_t1
+                |  <b> Agrupados: </b>Hace parte de un sistema más complejo, es parte de una serie de instrumentos para realizar una tarea.
+              li  
+                i.fas.fa-check.lista-ul--color_t1  
+                | <b>Aislados: </b>Por sí solo es concluyente no necesita ser complementado por otros.
+    .row.mt-5
+      .col-lg-12
+        h5 Diseño de instrumentos
+        p.mt-3 Deberá tener en cuenta una serie de consideraciones muy similares a las que se expusieron cuando se mencionaron las técnicas para recolección de información, ahora la tarea será plasmar todo esto en un documento o una estructura lista para ser implementada.        
+        p.mt-5 Para lo anterior, tenga en cuenta:
+
+    TabsC.color-acento-contenido.mt-5
+      .py-3.py-md-4(titulo="Planeación y diseño")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img28_tema2.svg', alt='Texto que describa la imagen')
+            
+          .col-md-6.mb-4.mb-md-0
+            h4 Planeación y diseño
+            p Debe tomarse el tiempo de idear o seleccionar el instrumento adecuado para cada situación, teniendo en cuenta aspectos como recursos, disponibilidad, tiempo, confidencialidad, agilidad y nivel de complejidad. 
+         
+      .py-3.py-md-4(titulo="Normativa, compatibilidad e imagen institucional")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img29_tema2.svg', alt='Texto que describa la imagen')
+
+          .col-md-6
+            h4 Normativa, compatibilidad e imagen institucional
+            p Al hacer parte de un grupo de trabajo y una empresa, deberá diseñar instrumentos que sean compatibles con las normas y procesos de la empresa y donde se use correctamente su imagen.
+
+      .py-3.py-md-4(titulo="Eficiencia")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img30_tema2.svg', alt='Texto que describa la imagen')
+          .col-md-6
+            h4 Eficiencia
+            p Al diseñar un instrumento o aplicar alguna técnica ya establecida, considere que esta debe ser clara y su implementación no deberá requerir ni más tiempo, ni recursos adicionales, ni trabajo más allá del necesario.
+
+      .py-3.py-md-4(titulo="Eficacia")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img31_tema2.svg', alt='Texto que describa la imagen')
+             
+          .col-md-6
+            h4 Eficacia
+            p El instrumento debe cumplir el objeto de su implementación, en el caso de conseguir información, presentar la mayor cantidad y calidad de información posible, de manera que permita cumplir con los objetivos de su búsqueda.
+            
+      .py-3.py-md-4(titulo="Elementos esenciales")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/img32_tema2.svg', alt='Texto que describa la imagen')
+            
+          .col-md-6
+            h4 Elementos esenciales
+            p Es importante incluir en él, campos que permitan establecer datos como fechas, ubicaciones, persona que ejecuta, personas implicadas en el uso del instrumento, objetivo o propósito y resultados, estos puntos permitirán hacer seguimiento y servir como soporte e insumo de su trabajo.
+    .row.mt-5
+      .col-lg-12
+        h5 Manejo de herramientas digitales para la elaboración de instrumentos de recolección de información.
+        p.mt-3 La mejor manera de aplicar los métodos e instrumentos es realizar su implementación, y son necesarias las herramientas para la creación de instrumentos que se sugieren revisar a continuación.
+    
+    .bg_img_01.mt-5
+      .row.justify-content-center.mb-5
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema2/img33_tema2.svg", alt="alt").img90.m-auto
+            h4.text-center Suite Microsoft Office:
+            p.text-center.mb-0 La más conocida de la lista la Suite de office incluye los programas usados en las empresas para procesar textos (Word), elaborar diapositivas (Power Point), realizar piezas gráficas (Publisher), entre otras; pero se destaca el uso de Excel para la creación de tablas, formatos y procesamiento estadístico.  También incluye Teams para videoconferencias, además OneDrive para almacenamiento en la nube y trabajo en documentos en línea.
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema2/img34_tema2.svg", alt="alt").img90.m-auto
+            h4.text-center Google Apps:
+            p.text-center.mb-0 Para hacer uso de las Apps de Google, basta con poseer una cuenta de correo electrónico, aunque algunas funcionalidades requieren de licencia, se destaca Google Drive como una herramienta para almacenamiento en la nube, su integración con Google docs es útil en trabajo cooperativo en tiempo real, la creación de formularios, siendo necesarios en la realización de encuestas, cuestionarios, formularios y alimentar información estadística.
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema2/img35_tema2.svg", alt="alt").img90.m-auto
+            h4.text-center Herramientas para diseño de piezas gráficas y material visual: 
+            p.text-center.mb-0 Se destacan herramientas con versión gratuita y en línea como ‘Canva y Piktochart’ las cuales son opciones interesantes para la creación de infografías, material visual de instrumentos e informes diferentes a las tradicionales de Office y similares. 
+            p.text-venter.mt-3 En versiones con licencia se encuentran las aplicaciones de Adobe, las cuales se ubican entre las más eficientes para el desarrollo de instrumentos con alto contenido visual. 
+
+   
     .row
       .col-lg-12
-        p Para finalizar el tema de estudio en este componente, es necesario definir los eventos e incidentes que permiten documentar los diferentes casos asociados a riesgos, amenazas detectadas o daños causados en el sistema de información de la empresa, cómo se describe a continuación.      
-
-    .row.mt-5
-      .col-lg-5              
-        img(src="@/assets/curso/temas/tema2/img11_tema2.svg", alt="alt")
-      .col-lg-7
-         p.mb-0 Las normas y los sistemas de gestión relacionan la “gestión de incidencias” como medida a las interrupciones que se puedan presentar en los procesos de negocio; los términos más utilizados son los <b>eventos y los incidentes.</b>
-         p.mt-3 Por evento se entiende como un cambio que no genera resultados negativos, es decir, el evento no trae implicaciones negativas, de este modo, puede ser usado como una expresión neutral, por el contrario, el incidente si representa resultados negativos, y pueden verse como las interrupciones o desmejoramiento en la calidad de los servicios prestados a los usuarios. Los incidentes deben atenderse mediante la estructura de gestión de incidencias.
-    
-    .row.mt-5
-      .col-lg-12
-         p.mb-0 Según la norma ISO 27001 el incidente genera un impacto de las operaciones de la seguridad de la información, según el nivel de afectación se pueden clasificar los incidentes según el impacto generado como: 
-
-
-    .row.justify-content-center.mb-5.mt-5
-        .col-8.col-lg-4.mb-4
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img.bgr-tarjeta-4
-              figure
-                img(src="@/assets/curso/temas/tema2/img122_tema2.svg", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Confidencial 
-              p.mb-0 Reserva de la información.
-              <br>
-              <br>
-              <br>
-              <br>
+        p En la sección de material complementario, se encuentran diferentes enlaces en donde se podrá complementar su formación, en cuanto al manejo de algunas de las herramientas descritas.
 
 
 
-        .col-8.col-lg-4.mb-4
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/temas/tema2/img133_tema2.svg", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Integridad
-              p.mb-0 Información completa sin alteraciones.             
-              <br>
-              <br>
-              <br>
-
-        .col-8.col-lg-4.mb-4
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/temas/tema2/img134_tema2.svg", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Disponibilidad
-              p.mb-0 Garantizar el acceso a las personas con los permisos o credenciales requeridas.
-              <br>
-              <br>
-              <br>
-                   
 
 </template>
 

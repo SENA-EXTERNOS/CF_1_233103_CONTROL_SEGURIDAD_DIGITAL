@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="282.81" viewBox="0 0 820 282.81">
+  <g id="Grupo_137449" data-name="Grupo 137449" transform="translate(-401 -5217)">
+    <path id="Trazado_193214" data-name="Trazado 193214" d="M623.907,158.714H449.857v98.438" transform="translate(122.339 5087.471)" fill="none" stroke="#c94024" stroke-width="2"/>
+    <path id="Trazado_193215" data-name="Trazado 193215" d="M727.571,158.714h174.05v98.438" transform="translate(152.779 5087.471)" fill="none" stroke="#c94024" stroke-width="2"/>
+    <path id="Trazado_193216" data-name="Trazado 193216" d="M464.352,248.5H446.107l9.123,9.684Z" transform="translate(116.987 5098.352)" fill="#e8e8e8"/>
+    <path id="Trazado_193217" data-name="Trazado 193217" d="M455.754,315.718H430.088l12.833,13.624Z" transform="translate(120.173 5104.68)" fill="#bfbfbf"/>
+    <path id="Trazado_193218" data-name="Trazado 193218" d="M356.008,315.718H330.342l12.833,13.624Z" transform="translate(109.24 5065.828)" fill="#bfbfbf"/>
+    <path id="Trazado_193219" data-name="Trazado 193219" d="M557.622,315.718H531.956l12.833,13.624Z" transform="translate(131.338 5104.68)" fill="#bfbfbf"/>
+    <path id="Trazado_193220" data-name="Trazado 193220" d="M800.722,315.718H775.056l12.834,13.624Z" transform="translate(157.984 5104.68)" fill="#bfbfbf"/>
+    <path id="Trazado_193221" data-name="Trazado 193221" d="M900.468,315.718H874.8l12.833,13.624Z" transform="translate(168.917 5104.68)" fill="#bfbfbf"/>
+    <path id="Trazado_193222" data-name="Trazado 193222" d="M1002.336,315.718H976.67L989.5,329.342Z" transform="translate(180.082 5104.68)" fill="#bfbfbf"/>
+    <rect id="Rectángulo_40564" data-name="Rectángulo 40564" width="288.498" height="67.686" rx="10" transform="translate(666.751 5217)" fill="#0d2380"/>
+    <text id="Nombre_del_proyecto" data-name="Nombre del proyecto" transform="translate(810.471 5256.817)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="-94.009" y="0">Nombre del proyecto</tspan></text>
+    <rect id="Rectángulo_82625" data-name="Rectángulo 82625" width="102.829" height="54.212" transform="translate(511.679 5445.598)" fill="#b0c0d2"/>
+    <rect id="Rectángulo_82626" data-name="Rectángulo 82626" width="102.829" height="54.212" transform="translate(624.712 5445.598)" fill="#d2e1f1"/>
+    <g id="Grupo_137315" data-name="Grupo 137315" transform="translate(401 5366.44)">
+      <rect id="Rectángulo_40566" data-name="Rectángulo 40566" width="326.225" height="45.494" rx="5" fill="#fc502d"/>
+      <text id="Etapa" transform="translate(162.592 28.72)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="-25.356" y="0">Etapa</tspan></text>
+    </g>
+    <rect id="Rectángulo_82627" data-name="Rectángulo 82627" width="102.829" height="54.212" transform="translate(401 5445.598)" fill="#727997"/>
+    <text id="Tarea_1" data-name="Tarea 1" transform="translate(453.824 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 1</tspan></text>
+    <text id="Tarea_2" data-name="Tarea 2" transform="translate(564.503 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 2</tspan></text>
+    <text id="Tarea_3" data-name="Tarea 3" transform="translate(677.536 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 3</tspan></text>
+    <rect id="Rectángulo_82628" data-name="Rectángulo 82628" width="102.829" height="54.212" transform="translate(894.458 5445.598)" fill="#727997"/>
+    <rect id="Rectángulo_82629" data-name="Rectángulo 82629" width="102.829" height="54.212" transform="translate(1005.137 5445.598)" fill="#b0c0d2"/>
+    <rect id="Rectángulo_82630" data-name="Rectángulo 82630" width="102.829" height="54.212" transform="translate(1118.171 5445.598)" fill="#d2e1f1"/>
+    <text id="Tarea_1-2" data-name="Tarea 1" transform="translate(947.282 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 1</tspan></text>
+    <text id="Tarea_2-2" data-name="Tarea 2" transform="translate(1057.961 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 2</tspan></text>
+    <text id="Tarea_3-2" data-name="Tarea 3" transform="translate(1170.995 5479.94)" font-size="20" font-family="Roboto-Regular, Roboto" style="isolation: isolate"><tspan x="-33.066" y="0">Tarea 3</tspan></text>
+    <g id="Grupo_137316" data-name="Grupo 137316" transform="translate(894.775 5366.44)">
+      <rect id="Rectángulo_40566-2" data-name="Rectángulo 40566" width="326.225" height="45.494" rx="5" fill="#fc502d"/>
+      <text id="Etapa-2" data-name="Etapa" transform="translate(162.592 28.72)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="-25.356" y="0">Etapa</tspan></text>
+    </g>
+    <path id="Trazado_193224" data-name="Trazado 193224" d="M464.352,248.5H446.107l9.123,9.684Z" transform="translate(598.987 5098.352)" fill="#e8e8e8"/>
+  </g>
+</svg>

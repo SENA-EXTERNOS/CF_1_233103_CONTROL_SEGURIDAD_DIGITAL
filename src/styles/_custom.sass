@@ -25,8 +25,6 @@
 .color-intro 
   color: #0D2380
 
-  
-  
 //**/ Tema 1 //**/
 
 .imagen-decorativa-1
@@ -110,6 +108,81 @@
   left: 0
   background-color: #FC502D
 
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #FFFFFF
+  
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #DADEEC
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #FFFFFF
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #0D2380     
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #0D2380 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.txt-t2
+  color: #FFFFFF
+
+.txt-t22
+  color: #000000 
+
+.color-acento-botones-puntos
+  background-color: #FFFFFF
+
+.img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after, .img-infografica.color-primario .img-infografica-b__item__dot:before, .img-infografica.color-primario .img-infografica-b__item__dot:after, .img-infografica-b.color-primario .img-infografica__item__dot:before, .img-infografica-b.color-primario .img-infografica__item__dot:after, .img-infografica-b.color-primario .img-infografica-b__item__dot:before, .img-infografica-b.color-primario .img-infografica-b__item__dot:after 
+  background-color: #d3d3d308
+
+
+
+
 ///////// Card hover --------------------------------------
 
 .crd_hover_txt
@@ -127,14 +200,74 @@
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #fff2bfbd
+    background-color: #FC502D
     
-     
-
-
   .crd_hover_txt--body
       p
         font-size: 0.85em  
-  
 
-    
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px 
+
+/// Tema 3 ////  
+
+.cajon.color-t3
+  background-color: #E4E6F1
+  position: relative 
+
+.cajon.color-t3:before 
+  content: ''
+  display: block
+  width: 25px
+  height: 10px
+  position: absolute
+  top: 0
+  left: 0
+  background-color: #0D2380
+
+.tema3-img1 
+    width: 60%
+    margin-left: 27%
+
+.imagen-T3-9
+    margin-left: 10%
+
+.titulo-T3-9
+    margin-left: 8%    
+   
