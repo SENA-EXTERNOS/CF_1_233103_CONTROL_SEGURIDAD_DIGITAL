@@ -158,7 +158,7 @@
         p <b>Metodología JAD</b>
         p.mt-5 Esta metodología se implementa principalmente para el desarrollo de software, pero su procedimiento es aplicable al proceso de obtención de información.
 
-    .row
+    .row.cajon.tema13.mt-5
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img12_tema2.svg', alt='Texto que describa la imagen') 
@@ -169,7 +169,7 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           p.text-small.bloque-texto-f__texto.color-cajon-t1 JAD es una metodología estructurada para la definición de objetivos, requerimientos y diseño externo que expande el rol de los usuarios, característica que la destaca de las otras técnicas de análisis y diseño de sistemas.
-    
+          p.text-small.bloque-texto-f__texto.color-cajon-t1.txt-cj2  <b>Según Balda y Vicenzi (1997):</b>
     
     .row.mt-5
       .col-lg-12
@@ -210,11 +210,98 @@
           .col-lg-10 
             p <b>Procedimiento para implementación:</b> los pasos son bastante similares a los expuestos en métodos anteriores, se recomienda que el orden sea:
 
-
+    //tarjeta
     .row.mt-5
-      .col-lg-12
-        h4 FALTA DEFINIR QUE TIPOS DE TARJETAS VAMOS A USAS!!!!
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT1_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5 
+                  p.mb-0 Identificar el(os) objetivo(s) que justifiquen la formulación y desarrollo de la prueba para obtener la información deseada.
 
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT2_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5  
+                  p.mb-0 Reconocer la población o grupo de personas que desarrollarán la prueba y los recursos técnicos disponibles para su realización.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT3_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5  
+                  p.mb-0 Definir qué tipo de preguntas y bajo qué dinámicas o recursos se desarrollará el cuestionario.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT4_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5
+                  p.mb-0 Formular preguntas que ayuden a responder los objetivos establecidos y que sean compatibles con las dinámicas utilizadas.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT5_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5 
+                  p.mb-0 Realizar la prueba.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT6_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5  
+                  p.mb-0 Recolectar, organizar y analizar los resultados.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT7_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5  
+                  p.mb-0 Concluir a partir de los resultados obtenidos.
+
+        .tarjeta.color-fondo-anexo.p-4
+          .row.justify-content-center.mb-5
+            .col-xl-12.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+              .crd_hover_txt(data-aos="flip-left")
+                .crd_hover_txt--img
+                  figure
+                    img(src="@/assets/curso/temas/tema2/imgT8_tema2.svg", alt="alt")
+                .crd_hover_txt--body
+                  h4.mt-5
+                  p.mb-0 Realizar informe de la prueba.
+            
+    //tarjeta-fin
     .row.mt-5
       .col-lg-12
         h4 Búsqueda en registros y bases de datos    
@@ -252,6 +339,7 @@
             .col
               p.txt-t22 <b>Google scholar</b>
               p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
+              p.mt-3 <a><b>https://scholar.google.com</b></a>
         .crd.crd--avatarHorizontal2.py-4
           .row.align-items-center
             .col-auto
@@ -260,6 +348,7 @@
             .col
               h5 Mendeley
               p.txt-t2 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
+              p.txt-t2.mt-3 <a><b>https://www.mendeley.com/?interaction_required=true</b></a>
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
@@ -268,7 +357,7 @@
             .col
               p.txt-t22 <b>Bases de datos públicas</b>
               p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información; ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
-
+              p.mt-3 <a><b>https://bibliotecas.unal.edu.co</b></a>
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -277,6 +366,7 @@
             .col
               h5 Biblioteca SENA
               p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales mundialmente reconocidas.       
+              p.txt-t2.mt-3 <a><b>https://biblioteca.sena.edu.co/</b></a>
     .row.mt-5
       .col-lg-l12
         h5 Otros métodos
