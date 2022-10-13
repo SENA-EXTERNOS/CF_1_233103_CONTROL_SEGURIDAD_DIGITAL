@@ -210,7 +210,7 @@
           .col-lg-10 
             p <b>Procedimiento para implementación:</b> los pasos son bastante similares a los expuestos en métodos anteriores, se recomienda que el orden sea:
 
-    //tarjeta
+
     .row.mt-5
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-fondo-anexo.p-4
@@ -596,63 +596,30 @@ export default {
       },
       {
         titulo: 'Sus características son:',
-        texto: '',
+        texto:
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Grupos de trabajo con roles definidos, conformados inicialmente por expertos en el tema.  </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Se trabaja mediante sesiones o talleres con una agenda y objetivos especificados previamente y un calendario del proceso.</li> <li><i class= "fas fa-check lista-ul--color_t1"> </i>La comunicación y el trabajo en equipo son fundamentales para llegar a resultados.</li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img14_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Los objetivos del método JAD son:',
-        texto: '',
+        texto:
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Acelerar los tiempos en la fase de diseño. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Tener un resultado final más aproximado a lo deseado por el usuario al incluirlo en el equipo de trabajo. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i>Desarrollo incremental: la aplicación o resultado se va puliendo progresivamente hasta cumplir completamente con las necesidades del usuario. </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img15_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Ventajas del Modelo JAD',
-        texto: '',
+        texto:
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Levantamiento de los requerimientos del usuario. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Mejoras progresivas y productos preliminares más rápidos. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i>Desarrollo incremental: la aplicación o resultado se va puliendo progresivamente hasta cumplir completamente con las necesidades del usuario. </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img16_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Desventajas del modelo JAD',
-        texto: '',
+        texto:
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Todos los participantes del equipo deben invertir una cantidad de tiempo considerable y difícilmente podrán realizar otras labores diferentes a las del método. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Requiere de un alto nivel de compromiso, cuando un miembro falla en su preparación y responsabilidades retrasa a todo el grupo. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> El equipo requiere de un alto nivel de sincronización y trabajo en equipo, esto puede ocasionar dificultades cuando se está iniciando en la implementación de este método. </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img17_tema2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
-    datosSlyder2: [
-      {
-        titulo: 'Software antivirus',
-        texto:
-          'En cualquier caso, todos los computadores que estén conectados a una red interna o internet, deben contar con un antivirus gratuito o pago pero que sea confiable. Estos programas permiten contar con medidas de protección efectivas cuando el equipo se encuentre expuesto a software malicioso o cualquier otro tipo de malware; Estos programas ofrecen la oportunidad de eliminarlo por completo o poner en estado de cuarentena. Kaspersky, Avast, Nod32, McAfee, son algunas de las posibilidades que se pueden encontrar en el mercado actual, lo más importante es que cualquier solución de antivirus en la que el usuario quiera confiar, debe tener la certeza que se adapte a las necesidades de seguridad y cuentan con actualizaciones constantes, debido a que los malware están en continua evolución.',
-        imagen: require('@/assets/curso/temas/tema2/img6_tema2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Firewall perimetral de red',
-        texto:
-          'Como su nombre lo indica, hace la función de una pared de bloqueo. Es un sistema cuya función es prevenir y proteger la privada de ataques de otras redes. Su funcionamiento es sencillo: escanea los paquetes de red, permitiéndoles o bloqueándolos según las reglas definidas por un administrador.',
-        imagen: require('@/assets/curso/temas/tema2/img7_tema2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Servidor proxy',
-        texto:
-          'Un proxy es un es un servidor, puede ser un programa o dispositivo físico, que actúa de intermediario entre conexiones del navegador e internet, filtrando todos los paquetes entre ambos. Así mismo, establece un sistema de autentificación, que limita el acceso a la red externa, por lo cual, se puede generar los registros sobre sitios, visitas, y demás datos de navegación.',
-        imagen: require('@/assets/curso/temas/tema2/img8_tema2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Cifrado de punto final o end point disk encryption',
-        texto:
-          'Contiene el proceso para codificación de datos, de tal forma que no puedan ser leídos por agentes externos que no cuenten con la clave para decodificarlos. Es decir, genera protección de los sistemas operativos ante cualquier instalación o ejecución de agentes corruptos, logrando bloquear todos los archivos almacenados en el servidor, o cualquier otro punto final.',
-        imagen: require('@/assets/curso/temas/tema2/img9_tema2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Escáner de vulnerabilidades',
-        texto:
-          'Es un software que detecta puntos frágiles en los sistemas informáticos de las empresas, con el objetivo de analizarlos y gestionarlos, dando respuesta oportuna a cualquier evento desafortunado. Con este sistema se puede controlar las amenazas y consecuencias en los activos digitales, además de generar alertas en tiempo real, ayudando a solucionar incidentes sin que se llegue a comprometer el normal desarrollo de los procesos en las empresas.',
-        imagen: require('@/assets/curso/temas/tema2/img10_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
     ],
