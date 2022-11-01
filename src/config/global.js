@@ -212,11 +212,6 @@ export default {
         'Es una herramienta o recurso, que puede ser tanto físico como digital para recolectar información.',
     },
     {
-      termino: 'Riesgo',
-      significado:
-        'probabilidad que un evento desafortunado ocurra y genere consecuencias a una persona, entidad o cosa.',
-    },
-    {
       termino: 'Metodología',
       significado:
         'Es el conjunto de pasos y actividades preestablecidas para llevar a cabo una tarea siguiendo una serie de parámetros.',

@@ -34,7 +34,7 @@
               figcaption Fotografía del autor
           .col-md-8.mb-4.mb-md-0
             .cajon.color-t1.p-4.mt-3
-              p.color-cajon-t1 Según Idalberto Chiavenato, referente en la administración, su concepto de la información es (2004):his is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              p.color-cajon-t1 Según Idalberto Chiavenato, referente en la administración, su concepto de la información es (2004):
               p.mt-3.color-cajon-t1 Consiste en un conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas (p.365). 
         
         .row
@@ -167,7 +167,7 @@
 
     .row.acor-t14.mt-5
       .col-lg-10
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")                
+        AcordionA(tipo="a" clase-tarjeta="tarjeta--azul")                
           .row(titulo="Clasificación según el formato o medio:")
             .col-md-6
               figure
@@ -275,7 +275,7 @@
         p Los siguientes son los algunos de los aspectos del sistema de gestión documental y su estructura:   
 
 
-    LineaTiempoC.color-secundario(text-small).mt-5
+    LineaTiempoC.color-cuadro.color-secundario(text-small).mt-5
       .row.align-items-center(titulo="Sistema de gestión documental").p-4
         .col-lg-5
           figure

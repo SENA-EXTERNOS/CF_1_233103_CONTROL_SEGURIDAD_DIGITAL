@@ -10,12 +10,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
+          h2 Arrastrar y soltar
         p.mb-4 #[b Objetivo] Actividad de repaso sobre algunas definiciones que se presentaron durante el desarrollo de este material de estudio, arrastrar cada concepto hasta su correspondiente definición para desarrollar.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar coincidencias 
+              p.fw-bold.mb-0 Arrastrar y soltar 
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/CF_1_233103AD/story.html')" target="_blank")
                 span Realizar

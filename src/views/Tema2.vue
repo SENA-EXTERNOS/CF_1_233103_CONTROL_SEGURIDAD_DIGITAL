@@ -49,6 +49,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             p.mt-3 Según lo presenta Bermúdez (2017), la observación no encaja en el término de percibir, ya que para llevarla a cabalidad debe ser sinónimo de pensar; el proceso de observación debe ir más allá de simplemente ver y hacer un registro de lo visto, exige una revisión más rigurosa y capaz de abarcar puntos relevantes, que no suelen ser tomados en cuenta a simple vista.
+          
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img2_tema2.svg', alt='Texto que describa la imagen')
@@ -56,6 +57,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             p.mt-3 Observación indirecta, cuando el observador conocerá el objeto de observación a través de datos de otras fuentes.
+         
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img3_tema2.svg', alt='Texto que describa la imagen')
@@ -63,6 +65,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             p Observación directa, cuando el observador está en contacto y/o presencia del objeto de observación.
+          
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img4_tema2.svg', alt='Texto que describa la imagen')
@@ -70,6 +73,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             p En el proceso de observar intervienen tres elementos: el ‘observador’, el ‘objeto’ y el ‘instrumento’; mediante la observación deberá tener definidos los otros dos aspectos, primero deberá tener claridad sobre lo que observará o por lo menos qué desea encontrar (objeto) y la manera o recurso (instrumento) que utilizará para registrar y almacenar la información recolectada.
+         
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img5_tema2.svg', alt='Texto que describa la imagen')
@@ -156,7 +160,7 @@
     .row.mt-5
       .col-lg-12
         p <b>Metodología JAD</b>
-        p.mt-5 Esta metodología se implementa principalmente para el desarrollo de software, pero su procedimiento es aplicable al proceso de obtención de información.
+        p.mt-5 Esta metodología se implementa principalmente para el desarrollo de <em>software,</em> pero su procedimiento es aplicable al proceso de obtención de información.
 
     .row.cajon.tema13.mt-5
       .col-lg-4
@@ -187,7 +191,7 @@
    
     .row.mt-5
       .col-lg-7
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")
           .row(titulo="Preguntas Cerradas: ")
             .col-md-12.mb-4.mb-md-0
               p son determinadas por el diseñador del cuestionario, y se asocian respuestas que usan dinámicas tipo: si/no, Verdadero y Falso, selección múltiple (A, B, C, D) y con una sola respuesta, entre otros. Este tipo de preguntas facilita la automatización para el análisis estadístico y calificación de la prueba.
@@ -318,7 +322,7 @@
     
     .row.mt-5
       .col-lg-12
-          p Las siguientes son algunas opciones de búsqueda de información que encuentra en la web.
+          p Las siguientes son algunas opciones de búsqueda de información que encuentra en la <em>web.</em>
    
     .row.justify-content-center.mb-5
       .col-lg-9.position-relative
@@ -337,9 +341,9 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img21_tema2.svg", alt="alt").img100
             .col
-              p.txt-t22 <b>Google scholar</b>
+              p.txt-t22 <b><em>Google scholar</em></b>
               p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
-              p.mt-3 <a><b>https://scholar.google.com</b></a>
+              p.mt-3 <a href="https://scholar.google.com"><b>https://scholar.google.com</b></a>
         .crd.crd--avatarHorizontal2.py-4
           .row.align-items-center
             .col-auto
@@ -348,7 +352,7 @@
             .col
               h5 Mendeley
               p.txt-t2 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
-              p.txt-t2.mt-3 <a><b>https://www.mendeley.com/?interaction_required=true</b></a>
+              p.txt-t2.mt-3 <a href="https://www.mendeley.com/?interaction_required=true"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
@@ -357,7 +361,7 @@
             .col
               p.txt-t22 <b>Bases de datos públicas</b>
               p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información; ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
-              p.mt-3 <a><b>https://bibliotecas.unal.edu.co</b></a>
+              p.mt-3 <a href="ttps://bibliotecas.unal.edu.co"><b>https://bibliotecas.unal.edu.co</b></a>
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -366,7 +370,7 @@
             .col
               h5 Biblioteca SENA
               p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales mundialmente reconocidas.       
-              p.txt-t2.mt-3 <a><b>https://biblioteca.sena.edu.co/</b></a>
+              p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
     .row.mt-5
       .col-lg-l12
         h5 Otros métodos
@@ -477,8 +481,15 @@
                 i.fas.fa-check.lista-ul--color_t1
                 |  De control: formatos y recursos para el control de procesos.
 
-          p(numero="2" titulo="El medio de implementación: ") <b>Físicos:</b> su uso y almacenamiento es normalmente físico, es decir sobre papel y puede ser digitalizable o no. <br><br> <b>Digitales:</b> se usan y almacenan de manera digital a través de un computador o dispositivo similar
-          
+          p(numero="2" titulo="El medio de implementación: ")
+            ul
+              li 
+                i.fas.fa-check.lista-ul--color_t1
+                |  <b>Físicos: </b>su uso y almacenamiento es normalmente físico, es decir sobre papel y puede ser digitalizable o no.
+              li  
+                i.fas.fa-check.lista-ul--color_t1  
+                | <b>Digitales: </b>se usan y almacenan de manera digital a través de un computador o dispositivo similar.
+         
           p(numero="3" titulo="El nivel de asociación: ") 
             ul
               li 
@@ -547,33 +558,32 @@
         h5 Manejo de herramientas digitales para la elaboración de instrumentos de recolección de información.
         p.mt-3 La mejor manera de aplicar los métodos e instrumentos es realizar su implementación, y son necesarias las herramientas para la creación de instrumentos que se sugieren revisar a continuación.
     
-    .bg_img_01.mt-5
-      .row.justify-content-center.mb-5
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-5
-              figure
-                img(src="@/assets/curso/temas/tema2/img33_tema2.svg", alt="alt").img90.m-auto
-            h4.text-center Suite Microsoft Office:
-            p.text-center.mb-0 La más conocida de la lista la Suite de office incluye los programas usados en las empresas para procesar textos (Word), elaborar diapositivas (Power Point), realizar piezas gráficas (Publisher), entre otras; pero se destaca el uso de Excel para la creación de tablas, formatos y procesamiento estadístico.  También incluye Teams para videoconferencias, además OneDrive para almacenamiento en la nube y trabajo en documentos en línea.
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-5
-              figure
-                img(src="@/assets/curso/temas/tema2/img34_tema2.svg", alt="alt").img90.m-auto
-            h4.text-center Google Apps:
-            p.text-center.mb-0 Para hacer uso de las Apps de Google, basta con poseer una cuenta de correo electrónico, aunque algunas funcionalidades requieren de licencia, se destaca Google Drive como una herramienta para almacenamiento en la nube, su integración con Google docs es útil en trabajo cooperativo en tiempo real, la creación de formularios, siendo necesarios en la realización de encuestas, cuestionarios, formularios y alimentar información estadística.
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-5
-              figure
-                img(src="@/assets/curso/temas/tema2/img35_tema2.svg", alt="alt").img90.m-auto
-            h4.text-center Herramientas para diseño de piezas gráficas y material visual: 
-            p.text-center.mb-0 Se destacan herramientas con versión gratuita y en línea como ‘Canva y Piktochart’ las cuales son opciones interesantes para la creación de infografías, material visual de instrumentos e informes diferentes a las tradicionales de Office y similares. 
-            p.text-venter.mt-3 En versiones con licencia se encuentran las aplicaciones de Adobe, las cuales se ubican entre las más eficientes para el desarrollo de instrumentos con alto contenido visual. 
+
+    .row.mt-5
+      .col-lg-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img33_tema2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--amarilla-1.p-4
+            h2.text-center.txt-t2.mt-5 <em>Suite Microsoft Office:</em>
+            p.text-center.txt-t2 La más conocida de la lista la <em>Suite de office</em> incluye los programas usados en las empresas para procesar textos <em>(Word),</em> elaborar diapositivas <em>(Power Point),</em> realizar piezas gráficas <em>(Publisher),</em> entre otras; pero se destaca el uso de <em>Excel</em> para la creación de tablas, formatos y procesamiento estadístico.  También incluye Teams para videoconferencias, además <em>OneDrive</em> para almacenamiento en la nube y trabajo en documentos en línea.
+
+      .col-lg-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img34_tema2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--amarilla-1.p-4
+            h2.text-center.txt-t2.mt-5 <em>Google Apps: </em>
+            p.text-center.txt-t2 Para hacer uso de las <em>Apps de Google,</em> basta con poseer una cuenta de correo electrónico, aunque algunas funcionalidades requieren de licencia, se destaca <em>Google Drive</em> como una herramienta para almacenamiento en la nube, su integración con <em>Google docs</em> es útil en trabajo cooperativo en tiempo real, la creación de formularios, siendo necesarios en la realización de encuestas, cuestionarios, formularios y alimentar información estadística.
+        
+      .col-lg-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img35_tema2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--amarilla-1.p-4
+            h2.text-center.txt-t2.mt-5 <em>Herramientas para diseño de piezas gráficas y material visual: </em>
+            p.text-center.txt-t2 Se destacan herramientas con versión gratuita y en línea como <em>‘Canva y Piktochart’</em> las cuales son opciones interesantes para la creación de infografías, material visual de instrumentos e informes diferentes a las tradicionales de <em>Office</em> y similares. 
+            p.text-venter.txt-t2.mt-3 En versiones con licencia se encuentran las aplicaciones de <em>Adobe,</em> las cuales se ubican entre las más eficientes para el desarrollo de instrumentos con alto contenido visual. 
 
    
-    .row
+    .row.mt-5
       .col-lg-12
         p En la sección de material complementario, se encuentran diferentes enlaces en donde se podrá complementar su formación, en cuanto al manejo de algunas de las herramientas descritas.
 
@@ -590,7 +600,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Joint Application Development, o en español desarrollo conjunto de aplicación o JAD,  es un método centrado en el trabajo en equipo para  definir los requerimientos de un sistema de información, y a partir de esto, realizar el diseño y desarrollo del mismo, en el proceso deben intervenir expertos y los clientes o usuarios del futuro sistema',
+          '<em>Joint Application Development</em>, o en español desarrollo conjunto de aplicación o JAD,  es un método centrado en el trabajo en equipo para  definir los requerimientos de un sistema de información, y a partir de esto, realizar el diseño y desarrollo del mismo, en el proceso deben intervenir expertos y los clientes o usuarios del futuro sistema',
         imagen: require('@/assets/curso/temas/tema2/img13_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -611,7 +621,7 @@ export default {
       {
         titulo: 'Ventajas del Modelo JAD',
         texto:
-          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Levantamiento de los requerimientos del usuario. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Mejoras progresivas y productos preliminares más rápidos. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i>Desarrollo incremental: la aplicación o resultado se va puliendo progresivamente hasta cumplir completamente con las necesidades del usuario. </li></ul>',
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Levantamiento de los requerimientos del usuario. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Mejoras progresivas y productos preliminares más rápidos. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Análisis y diseño continuo, al requerir de un equipo de trabajo más amplio </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img16_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
