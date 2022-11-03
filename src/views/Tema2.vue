@@ -38,7 +38,7 @@
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.1.1 Observación  
+      h3 2.1.1 Observación  
     
     .row
       .col-lg-12
@@ -100,62 +100,64 @@
         p <b>Encuestas y entrevistas</b>
         p.mt-5 Las entrevistas y las encuestas son dos métodos a través de los cuales se puede obtener información de un público objetivo, la diferencia entre ambas radica en la manera como se registraron las respuestas del encuestado o entrevistado. La encuesta suele contener preguntas cerradas con opciones de respuesta cortas tipo si/no u opciones; mientras que, en una entrevista, las respuestas suelen ser de un carácter más abierto y la valoración de estas dependerá en cierta medida, del criterio de quien realiza la entrevista. Para preparar una entrevista o encuesta tenga en cuenta:
     
-    .tarjeta.tarjeta--azul.p-4.mt-5
-      SlyderA(tipo="b")
-        .row
-          .col-md-8
-            p.color-intro <b>Determinar los objetivos de la Entrevista/ Encuesta.</b>
-            p.mt-3 Definir el o los objetivos ¿qué se desea obtener al realizar la encuesta /entrevista?  
-          
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img6_tema2.svg', alt='Texto que describa la imagen')
-          
-        .row
-          .col-md-8
-            p.color-intro <b>Formular previamente las preguntas y respuestas para la encuesta, o solo las preguntas para la entrevista.</b>
-            p.mt-3 La calidad de las respuestas que se obtengan, dependerá en gran parte de las preguntas que se formulen. Estas deben ser directas, cortas y fáciles de comprender para el entrevistado/encuestado; deben ayudar a responder los objetivos planteados y el qué, cómo, cuándo y quién.
-          
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img7_tema2.svg', alt='Texto que describa la imagen')
-          
-        .row
-          .col-md-8
-            p.color-intro <b>Seleccione el público objetivo, medio, momento y lugar adecuados para realizar la entrevista/encuesta.</b>
-            p.mt-3 Es importante saber a quién o quienes se entrevistarán, su disponibilidad y relación con la temática a desarrollar. Poco sirven las preguntas bien elaboradas, si se realizan a personas que carecen de conocimiento sobre el tema.
-          
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img8_tema2.svg', alt='Texto que describa la imagen')
-          
-        .row
-          .col-md-8
-            p.color-intro <b>Realizar la encuesta siguiendo los protocolos y normas básicas de comunicación.</b>
-            p.mt-3 Presentarse de ser necesario, explicar el propósito y precisar las instrucciones para realizar la actividad antes de iniciar, verificar o solicitar los datos del encuestado/entrevistado y si está de acuerdo con realizar dicha actividad.
-            p.mt-3 Tener una actitud adecuada para la situación es clave, la apariencia y lenguaje deben transmitir confianza, profesionalismo y respeto a la otra persona. El uso de palabras que motiven al entrevistado/encuestado a responder de manera clara y sincera a las preguntas, además se debe estar atento a contestar dudas o hacer aclaraciones durante el proceso, si es el caso, se recomienda brindar copia del cuestionario y respuestas.
+    .row
+      .col-lg-12.bg-3
+        .tarjeta.tarjeta--azul.p-4.mt-5
+          SlyderA(tipo="b")
+            .row
+              .col-md-8
+                p.color-intro <b>Determinar los objetivos de la Entrevista/ Encuesta.</b>
+                p.mt-3 Definir el o los objetivos ¿qué se desea obtener al realizar la encuesta /entrevista?  
+              
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img6_tema2.svg', alt='Texto que describa la imagen')
+              
+            .row
+              .col-md-8
+                p.color-intro <b>Formular previamente las preguntas y respuestas para la encuesta, o solo las preguntas para la entrevista.</b>
+                p.mt-3 La calidad de las respuestas que se obtengan, dependerá en gran parte de las preguntas que se formulen. Estas deben ser directas, cortas y fáciles de comprender para el entrevistado/encuestado; deben ayudar a responder los objetivos planteados y el qué, cómo, cuándo y quién.
+              
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img7_tema2.svg', alt='Texto que describa la imagen')
+              
+            .row
+              .col-md-8
+                p.color-intro <b>Seleccione el público objetivo, medio, momento y lugar adecuados para realizar la entrevista/encuesta.</b>
+                p.mt-3 Es importante saber a quién o quienes se entrevistarán, su disponibilidad y relación con la temática a desarrollar. Poco sirven las preguntas bien elaboradas, si se realizan a personas que carecen de conocimiento sobre el tema.
+              
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img8_tema2.svg', alt='Texto que describa la imagen')
+              
+            .row
+              .col-md-8
+                p.color-intro <b>Realizar la encuesta siguiendo los protocolos y normas básicas de comunicación.</b>
+                p.mt-3 Presentarse de ser necesario, explicar el propósito y precisar las instrucciones para realizar la actividad antes de iniciar, verificar o solicitar los datos del encuestado/entrevistado y si está de acuerdo con realizar dicha actividad.
+                p.mt-3 Tener una actitud adecuada para la situación es clave, la apariencia y lenguaje deben transmitir confianza, profesionalismo y respeto a la otra persona. El uso de palabras que motiven al entrevistado/encuestado a responder de manera clara y sincera a las preguntas, además se debe estar atento a contestar dudas o hacer aclaraciones durante el proceso, si es el caso, se recomienda brindar copia del cuestionario y respuestas.
 
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img9_tema2.svg', alt='Texto que describa la imagen')
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img9_tema2.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-8
-            p.color-intro <b>Realice el análisis de la información recolectada.</b>
-            p.mt-3 Con la información recolectada es importante realizar la organización y análisis, apoyándose en herramientas informáticas para realizar un estudio estadístico, creación de diagramas o  registrar las apreciaciones del proceso según sea el caso.
-          
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img10_tema2.svg', alt='Texto que describa la imagen')  
+            .row
+              .col-md-8
+                p.color-intro <b>Realice el análisis de la información recolectada.</b>
+                p.mt-3 Con la información recolectada es importante realizar la organización y análisis, apoyándose en herramientas informáticas para realizar un estudio estadístico, creación de diagramas o  registrar las apreciaciones del proceso según sea el caso.
+              
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img10_tema2.svg', alt='Texto que describa la imagen')  
 
-        .row
-          .col-md-8
-            p.color-intro <b>Elaborar conclusiones finales e informe del proceso.</b>
-            p.mt-3 Con la información obtenida y producto del análisis se deben realizar las correspondientes conclusiones, enfocadas en responder a los objetivos planteados y a enunciar qué puntos han quedado pendientes o las nuevas preguntas que han surgido como resultado del proceso de investigar, es necesario plantearlas dentro de un informe que siga los estándares de la organización, donde además se pueda documentar y contar el proceso que se realizó para llegar a las mencionadas conclusiones.
+            .row
+              .col-md-8
+                p.color-intro <b>Elaborar conclusiones finales e informe del proceso.</b>
+                p.mt-3 Con la información obtenida y producto del análisis se deben realizar las correspondientes conclusiones, enfocadas en responder a los objetivos planteados y a enunciar qué puntos han quedado pendientes o las nuevas preguntas que han surgido como resultado del proceso de investigar, es necesario plantearlas dentro de un informe que siga los estándares de la organización, donde además se pueda documentar y contar el proceso que se realizó para llegar a las mencionadas conclusiones.
 
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img11_tema2.svg', alt='Texto que describa la imagen') 
+              .col-md-4.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img11_tema2.svg', alt='Texto que describa la imagen') 
     
     .row.mt-5
       .col-lg-12
@@ -190,7 +192,7 @@
         p.mt-5 Las siguientes son algunas pautas y datos útiles sobre el tema:
    
     .row.mt-5
-      .col-lg-7
+      .col-lg-7.bg-1
         AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")
           .row(titulo="Preguntas Cerradas: ")
             .col-md-12.mb-4.mb-md-0
@@ -343,7 +345,7 @@
             .col
               p.txt-t22 <b><em>Google scholar</em></b>
               p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
-              p.mt-3 <a href="https://scholar.google.com"><b>https://scholar.google.com</b></a>
+              p.mt-3 <a href="https://scholar.google.com" target="_blank"><b>https://scholar.google.com</b></a>
         .crd.crd--avatarHorizontal2.py-4
           .row.align-items-center
             .col-auto
@@ -352,7 +354,7 @@
             .col
               h5 Mendeley
               p.txt-t2 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
-              p.txt-t2.mt-3 <a href="https://www.mendeley.com/?interaction_required=true"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
+              p.txt-t2.mt-3 <a href="https://www.mendeley.com/?interaction_required=true" target="_blank"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
@@ -361,7 +363,7 @@
             .col
               p.txt-t22 <b>Bases de datos públicas</b>
               p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información; ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
-              p.mt-3 <a href="ttps://bibliotecas.unal.edu.co"><b>https://bibliotecas.unal.edu.co</b></a>
+              p.mt-3 <a href="https://bibliotecas.unal.edu.co" target="_blank"><b>https://bibliotecas.unal.edu.co</b></a>
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -370,7 +372,7 @@
             .col
               h5 Biblioteca SENA
               p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales mundialmente reconocidas.       
-              p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
+              p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/" target="_blank"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
     .row.mt-5
       .col-lg-l12
         h5 Otros métodos

@@ -24,66 +24,68 @@
       .col-lg-12
         p Para iniciar con el primer tema de estudio, es necesario definir el concepto central a tratar, la ‘información’, conocer cómo los principales teóricos la definen:
 
-    .tarjeta.tarjeta--azul.p-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-4
-            p Chiavenato, Idalberto. 
-            figure
-              img(src='@/assets/curso/temas/tema1/img2_tema1.svg', alt='Texto que describa la imagen')
-              figcaption Fotografía del autor
-          .col-md-8.mb-4.mb-md-0
-            .cajon.color-t1.p-4.mt-3
-              p.color-cajon-t1 Según Idalberto Chiavenato, referente en la administración, su concepto de la información es (2004):
-              p.mt-3.color-cajon-t1 Consiste en un conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas (p.365). 
-        
-        .row
-          .col-md-4
-            p RAE
-            figure
-              img(src='@/assets/curso/temas/tema1/img3_tema1.svg', alt='Texto que describa la imagen')
-              
-          .col-md-8.mb-4.mb-md-0
-            .cajon.color-t1.p-4.mt-3
-              p.color-cajon-t1 Del diccionario de la RAE encontramos la siguiente definición (2014): “Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que se poseen sobre una materia determinada” (23a ed.).
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
+    .row
+      .col-lg-12.bg-3
+        .tarjeta.tarjeta--azul.p-4
+          SlyderA(tipo="b")
+            .row
+              .col-md-4
+                p Chiavenato, Idalberto. 
+                figure
+                  img(src='@/assets/curso/temas/tema1/img2_tema1.svg', alt='Texto que describa la imagen')
+                  figcaption Fotografía del autor
+              .col-md-8.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1 Según Idalberto Chiavenato, referente en la administración, su concepto de la información es (2004):
+                  p.mt-3.color-cajon-t1 Consiste en un conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas (p.365). 
+            
+            .row
+              .col-md-4
+                p RAE
+                figure
+                  img(src='@/assets/curso/temas/tema1/img3_tema1.svg', alt='Texto que describa la imagen')
+                  
+              .col-md-8.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1 Del diccionario de la RAE encontramos la siguiente definición (2014): “Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que se poseen sobre una materia determinada” (23a ed.).
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
 
-        .row
-          .col-md-4
-            p Michael R. Czinkota 
-            figure
-              img(src='@/assets/curso/temas/tema1/img4_tema1.svg', alt='Texto que describa la imagen')
-              figcaption Fotografía del autor
-          .col-md-8.mb-4.mb-md-0
-            .cajon.color-t1.p-4.mt-3
-              p.color-cajon-t1 Según Czinkota y Kotabe la ‘información’ "consiste en datos seleccionados y ordenados con un propósito específico" (p.115).
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br> 
+            .row
+              .col-md-4
+                p Michael R. Czinkota 
+                figure
+                  img(src='@/assets/curso/temas/tema1/img4_tema1.svg', alt='Texto que describa la imagen')
+                  figcaption Fotografía del autor
+              .col-md-8.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1 Según Czinkota y Kotabe la ‘información’ "consiste en datos seleccionados y ordenados con un propósito específico" (p.115).
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br> 
 
-        .row
-          .col-md-4
-            p
-            figure
-              img(src='@/assets/curso/temas/tema1/img5_tema1.svg', alt='Texto que describa la imagen')
-              figcaption Fotografía del autor
-          .col-md-8.mb-4.mb-md-0
-            .cajon.color-t1.p-4.mt-3
-              p.color-cajon-t1 Portada: introducción a los negocios en un mundo cambiante 
-              p.mt-3.color-cajon-t1 Para Ferrell y Hirt (2004), la información "comprende los datos y conocimientos que se usan en la toma de decisiones" (p.121).
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
+            .row
+              .col-md-4
+                p
+                figure
+                  img(src='@/assets/curso/temas/tema1/img5_tema1.svg', alt='Texto que describa la imagen')
+                  figcaption Fotografía del autor
+              .col-md-8.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1 Portada: introducción a los negocios en un mundo cambiante 
+                  p.mt-3.color-cajon-t1 Para Ferrell y Hirt (2004), la información "comprende los datos y conocimientos que se usan en la toma de decisiones" (p.121).
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
         
     .row.mt-5
       .col-lg-12
@@ -166,8 +168,8 @@
     
 
     .row.acor-t14.mt-5
-      .col-lg-10
-        AcordionA(tipo="a" clase-tarjeta="tarjeta--azul")                
+      .col-lg-10.bg-2
+        AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")                
           .row(titulo="Clasificación según el formato o medio:")
             .col-md-6
               figure
