@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Recolección de información para la seguridad digital.',
     descripcionCurso:
-      'En los procesos corporativos, incluidos los relacionados con la seguridad digital, la gestión de la información se convierte en un aspecto crítico, para garantizar la eficiencia e integridad en los procesos digitales, por ese motivo es fundamental desarrollar habilidades relacionadas con la obtención y manejo de la información acorde a las necesidades y normativas aplicadas en la empresa.',
+      'En los procesos corporativos, incluidos los relacionados con la seguridad digital, la gestión de la información se convierte en un aspecto crítico, para garantizar la eficiencia e integridad en los procesos digitales, por ese motivo es fundamental desarrollar habilidades relacionadas con la obtención y manejo de la información acorde a las necesidades y normativas aplicadas en la empresa',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
