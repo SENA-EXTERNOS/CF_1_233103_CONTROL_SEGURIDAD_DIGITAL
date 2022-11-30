@@ -38,7 +38,7 @@
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h3 2.1.1 Observación  
+      h3 .Observación  
     
     .row
       .col-lg-12
@@ -325,16 +325,17 @@
     .row.mt-5
       .col-lg-12
           p Las siguientes son algunas opciones de búsqueda de información que encuentra en la <em>web.</em>
-   
+    
+    //beto   
     .row.justify-content-center.mb-5
       .col-lg-9.position-relative
         h3.mb-4.text-center.txt--purpura  
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
-            .col-lg-auto.col-xs-12
+            .col-lg-auto.col-xs-8
               figure
                 img(src="@/assets/curso/temas/tema2/img20_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-12.left-text
+            .col-lg-12.col-xs-4.left-text
               h5 Las bases de datos
               p.txt-t2 Son grandes plataformas donde se puede acceder a  información como artículos, revistas, libros de fuentes indexadas y algunas sobre temas específicos, es importante tener algo de dominio del tema sobre el que se consulta.
         .crd.crd--avatarHorizontal.py-4
@@ -375,6 +376,7 @@
               h5 Biblioteca SENA
               p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales mundialmente reconocidas.       
               p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/" target="_blank"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
+    //beto-fin
     .row.mt-5
       .col-lg-l12
         h5 Otros métodos
