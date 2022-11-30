@@ -38,7 +38,7 @@
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h3 .Observación  
+      h3 Observación  
     
     .row
       .col-lg-12
