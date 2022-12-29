@@ -39,18 +39,6 @@ export default {
               'Definiciones básicas: información, datos, metodología, instrumentos, comunicación.',
             hash: 't_1_1',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Clasificación de la información.',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Manejo y preservación de la información',
-            hash: 't_1_3',
-          },
         ],
       },
 
@@ -60,20 +48,6 @@ export default {
         numero: '2',
         titulo: 'Metodología para la recolección de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Técnicas para la recolección de información',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Instrumentos para la recolección de información',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -81,26 +55,6 @@ export default {
         numero: '3',
         titulo: 'Metodologías para la planificación de actividades.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Metodología Ágil',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Metodología en cascada',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Metodología de ruta crítica',
-            hash: 't_3_3',
-          },
-        ],
       },
     ],
     subMenu: [

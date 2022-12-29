@@ -14,8 +14,8 @@
 
     .row.mt-5
       .col-lg-12
-          p Como se ha podido apreciar en el material de introducción, el término sobre el que girará toda la temática de este contenido, será la ‘información’. Al ser técnico en control de la seguridad digital, es importante apropiar una definición de este y de otros términos que guardan completa relación y mención frecuente.
-   
+          p Para iniciar a adentrarse en el tema de la Información, se requiere definir el concepto y hacer un acercamiento a la concepción que algunos teóricos tiene sobre la misma:
+
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Definiciones básicas: información, datos, metodología, instrumentos, comunicación.
@@ -24,11 +24,11 @@
       .col-lg-12
         p Para iniciar con el primer tema de estudio, es necesario definir el concepto central a tratar, la ‘información’, conocer cómo los principales teóricos la definen:
 
-    .row
+    .row.justify-content-center.align-items-center
       .col-lg-12.bg-3
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
-            .row
+            .row.justify-content-center
               .col-md-4
                 p Chiavenato, Idalberto. 
                 figure
@@ -36,10 +36,9 @@
                   figcaption Fotografía del autor
               .col-md-8.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1 Según Idalberto Chiavenato, referente en la administración, su concepto de la información es (2004):
-                  p.mt-3.color-cajon-t1 Consiste en un conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas (p.365). 
-            
-            .row
+                  p.color-cajon-t1.mb-5 Según Idalberto Chiavenato, la información consiste en un “conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas…”.
+
+            .row.justify-content-center
               .col-md-4
                 p RAE
                 figure
@@ -47,15 +46,9 @@
                   
               .col-md-8.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1 Del diccionario de la RAE encontramos la siguiente definición (2014): “Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que se poseen sobre una materia determinada” (23a ed.).
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
+                  p.color-cajon-t1.mb-5 Por su parte, el diccionario de la RAE la define como “ Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que ya se poseen sobre una materia determinada”.
 
-            .row
+            .row.justify-content-center
               .col-md-4
                 p Michael R. Czinkota 
                 figure
@@ -63,15 +56,9 @@
                   figcaption Fotografía del autor
               .col-md-8.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1 Según Czinkota y Kotabe la ‘información’ "consiste en datos seleccionados y ordenados con un propósito específico" (p.115).
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br> 
+                  p.color-cajon-t1.mb-5 Según Czinkota y Kotabe, la información consiste en “datos seleccionados y ordenados con un propósito específico”.
 
-            .row
+            .row.justify-content-center
               .col-md-4
                 p
                 figure
@@ -79,17 +66,13 @@
                   figcaption Fotografía del autor
               .col-md-8.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1 Portada: introducción a los negocios en un mundo cambiante 
-                  p.mt-3.color-cajon-t1 Para Ferrell y Hirt (2004), la información "comprende los datos y conocimientos que se usan en la toma de decisiones" (p.121).
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
+                  p.color-cajon-t1 Portada: introducción a los negocios en un mundo cambiante
+                  p.mt-3.color-cajon-t1.mb-5 Para Ferrell y Hirt, la información “comprende los datos y conocimientos que se usan en la toma de decisiones”.
+
         
     .row.mt-5
       .col-lg-12
-        p Algunos conceptos también asociados al tema y que se deben conocer son:  
+        p Otros aspectos y conceptos que, en relación con la información, deben tenerse en cuenta y se encuentran muy asociados al tema, son:
 
     .tarjeta.tarjeta--gris.p-4.mt-5
       LineaTiempoC.color-acento-botones(text-small)
@@ -125,7 +108,7 @@
               img(src='@/assets/curso/temas/tema1/img8_tema1.svg', alt='Texto que describa la imagen')
               
           .col-md-6.mb-4.mb-md-0
-            p <b>Dato:</b> Les una unidad pequeña de información compuesta por símbolos, letras o números, que al darle un contexto y agruparla con otros datos puede componer una unidad de información mucho más completa.
+            p <b>Dato:</b>  es una unidad pequeña de información compuesta por símbolos, letras o números que, al darle un contexto y agruparla con otros datos, puede componer una unidad de información mucho más completa.
 
         .row(titulo="")
           .col-md-6
@@ -149,14 +132,10 @@
               img(src='@/assets/curso/temas/tema1/img11_tema1.svg', alt='Texto que describa la imagen')
               
           .col-md-6.mb-4.mb-md-0
-            p <b>Técnica:</b> es el conjunto de procedimientos y/o recursos que se emplean para llevar a cabo una acción en específico, para desarrollar una técnica correcta, se requiere que previamente la persona adquiera un conocimiento y pueda practicar hasta obtener un nivel aceptable de habilidad.
+            p <b>Técnica:</b> es el conjunto de procedimientos y/o recursos que se emplean para llevar a cabo una acción en específico. Para desarrollar una técnica correcta se requiere que, previamente, la persona adquiera un conocimiento y pueda practicar hasta obtener un nivel aceptable de habilidad.
 
 
-    separador
-    #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Clasificación de la información.
-
-    .row.cajon.tema13 
+    .row.cajon.tema13.mt-5
       .cajon.color-t11.p-4
         .row
           .col-lg-10 
@@ -164,18 +143,14 @@
     
     .row.mt-5
       .col-lg-12
-          p A continuación, puede explorar cada una las formas en las que se puede clasificar la información según la norma <b>ISO 27001.</b>
-    
+          p A continuación, pueden explorar cada una las formas en las que se logra clasificar la información, según la norma ISO 27001.
 
-    .row.acor-t14.mt-5
-      .col-lg-10.bg-2
+
+    .row.mt-5
+      .col-lg-8.bg-2
         AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")                
-          .row(titulo="Clasificación según el formato o medio:")
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
-                
-            .col-md-6.mb-4.mb-md-0
+          .row(titulo="Clasificación según el formato o medio")
+            .col-md-12.mb-4.mb-md-0
               p 
                 ul.mt-3
                   li 
@@ -186,7 +161,7 @@
                     |  <b>Medio físico papel: </b>información impresa o escrita en papel, que debe ser archivada físicamente para su preservación.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Correos electrónicos: </b> sabarca todo tipo de información enviada por este medio, sea solo texto o con componentes multimedia.
+                    |  <b>Correos electrónicos: </b>  abarca todo tipo de información enviada por este medio, sea solo texto o con componentes multimedia.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
                     |  <b>Bases de datos: </b> grandes volúmenes de información que se guardan de forma digital en un formato o estructura en específico, que puede ser administrada y consultada mediante algún tipo de software de base de datos.
@@ -194,7 +169,7 @@
                     i.fas.fa-check.lista-ul--color_t1
                     |  <b>Documentos electrónicos: </b> son documentos generados y almacenados en computadoras o dispositivos digitales sin copia física.
          
-          .row(titulo="Clasificación según el grado de confidencialidad o sensibilidad: ")
+          .row(titulo="Clasificación según el grado de confidencialidad o sensibilidad")
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
@@ -204,7 +179,7 @@
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Publico: </b>información poco crítica para la empresa; cualquier persona interna o externa a esta puede tener acceso a ella. Por ejemplo, portafolios de servicio, información comercial y publicidad.
+                    |  <b>Publico: </b>información poco crítica para la empresa; cualquier persona interna o externa a esta, puede tener acceso a ella. Por ejemplo, portafolios de servicio, información comercial y publicidad.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
                     |  <b>Uso interno: </b>limitado solo a quienes hacen parte de la empresa y con un valor bajo de confidencialidad.
@@ -213,10 +188,9 @@
                     |  <b>Restringido: </b> es el nivel medido de confidencialidad, solo disponible para un grupo reducido de funcionarios de la empresa, por ejemplo, información exclusiva del área de sistemas o del área de compras.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Confidencial: </b> Información altamente sensible a la que solo debe tener acceso un grupo muy reducido de personas, como secretos de producción industrial, códigos de programación, configuración de equipos de red y contraseñas.
+                    |  <b>Confidencial: </b> información altamente sensible a la que solo debe tener acceso un grupo muy reducido de personas, como secretos de producción industrial, códigos de programación, configuración de equipos de red y contraseñas.
 
-
-          .row(titulo="Según área de interés: ")
+          .row(titulo="Clasificación según área de interés")
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
@@ -237,13 +211,13 @@
                       i.fas.fa-check.lista-ul--color_t1
                       |  Personal
           
-          .row(titulo="Según la dependencia o área de trabajo: ")
+          .row(titulo="Clasificación según dependencia o área de trabajo")
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
                 
             .col-md-6.mb-4.mb-md-0
-              p La información se clasifica según el área de la compañía en donde se produce, circula o que por su contenido es solo pertinente para una dependencia o área:
+              p La información se clasifica según el área de la compañía en donde se produce, circula o donde, por su contenido, es pertinente (dependencia o área):
                 ul.mt-3
                     li  
                       i.fas.fa-check.lista-ul--color_t1  
@@ -260,17 +234,21 @@
                     li  
                       i.fas.fa-check.lista-ul--color_t1
                       |  De recursos humanos  
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
 
-    separador
-    #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3 Manejo y preservación de la información      
+    .row.mt-5
+      h3 Manejo y preservación de la información      
           
-    .row.mt-3
-        .col-lg-3
-          figure
-            img(src="@/assets/curso/temas/tema1/img13_tema1.svg", alt="alt")
-        .col-lg-9
-            p A continuación, se listan algunos aspectos generales asociados al sistema de gestión documental, como estructura presente dentro de las empresas para la gestión de la información:
+    .row.justify-content-center.align-items-center.mt-3
+      .col-lg-10
+        .row.justify-content-center.align-items-center.mt-3.color-recuadro
+          .col-lg-6
+            figure
+              img(src="@/assets/curso/temas/tema1/img13_tema1.svg", alt="alt").image-left
+          .col-lg-6
+              p A continuación, se listan algunos aspectos generales asociados al sistema de gestión documental, como estructura presente dentro de las empresas, para la gestión de la información:
 
     .row.mt-5
       .col-lg-12
@@ -325,9 +303,9 @@
           figure
             img(src='@/assets/curso/temas/tema1/img18_tema1.svg' alt='').mb-4
         .col-lg-7
-          h4 Clasificación
-          p El sistema permite clasificar la información según los criterios propios de la empresa. La información debe ser codificada (rotulada) y se debe utilizar una nomenclatura estandarizada, que permita su fácil ubicación y gestión.
-      
+          p #[b Clasificación]
+          p El sistema permite clasificar la información según los criterios propios de la empresa. La información debe ser codificada (rotulada) y se debe utilizar una nomenclatura estandarizada que permita su fácil ubicación y gestión.
+
         
 </template>
 
