@@ -25,7 +25,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Información de calidad
-                  p.text-small A continuación, se describen los métodos más comunes que se aplican, frecuentemente, en entornos laborales y científicos, con los cuales se obtiene información.
+                  p.text-small Para introducirse en lo relacionado con las características de una información de alta calidad, explore el documento que aquí se propone. Haga estudio consciente del mismo y continúe con las temáticas del componente formativo.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_ANEXO1_información_de_calidad.pdf')" target="_blank")
                     span Descargar
@@ -58,14 +58,15 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img2_tema2.svg', alt='Texto que describa la imagen')
-              
+
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
-            p.mt-3 Observación indirecta: cuando el observador conocerá el objeto de observación a través de datos de otras fuentes.
+            p En el proceso de #[b observar] intervienen tres elementos: el ‘observador’, el ‘objeto’ y el ‘instrumento’; mediante la observación deberá tener definidos los otros dos aspectos, primero deberá tener claridad sobre lo que observará o por lo menos qué desea encontrar (objeto) y la manera o recurso (instrumento) que utilizará para registrar y almacenar la información recolectada.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img3_tema2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img5_tema2.svg', alt='Texto que describa la imagen')
+           
         
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -75,13 +76,14 @@
             figure
               img(src='@/assets/curso/temas/tema2/img4_tema2.svg', alt='Texto que describa la imagen')
        
+        
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
-            p En el proceso de #[b observar] intervienen tres elementos: el ‘observador’, el ‘objeto’ y el ‘instrumento’; mediante la observación deberá tener definidos los otros dos aspectos, primero deberá tener claridad sobre lo que observará o por lo menos qué desea encontrar (objeto) y la manera o recurso (instrumento) que utilizará para registrar y almacenar la información recolectada.
+            p.mt-3 Observación indirecta: cuando el observador conocerá el objeto de observación a través de datos de otras fuentes.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img5_tema2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img3_tema2.svg', alt='Texto que describa la imagen')
         
     
     .row.cajon.tema13.mt-5
@@ -342,14 +344,14 @@
 
     //beto   
     .row.justify-content-center.mb-5
-      .col-lg-9.position-relative
+      .col-lg-10.position-relative
         h3.mb-4.text-center.txt--purpura  
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-lg-auto.col-xs-8
               figure
                 img(src="@/assets/curso/temas/tema2/img20_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-4.left-text
+            .col-lg-9.col-xs-4
               h5 Las bases de datos
               p.txt-t2 Son grandes plataformas donde se puede acceder a información como artículos, revistas, libros de fuentes indexadas y algunas sobre temas específicos. Es importante tener algo de dominio del tema sobre el que se consulta.
 
@@ -358,7 +360,7 @@
             .col-lg-auto.col-xs-12
               figure
                 img(src="@/assets/curso/temas/tema2/img21_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-12.left-text
+            .col-lg-9.col-xs-4
               p.txt-t22 <b><em>Google scholar</em></b>
               p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
               p.mt-3 <a href="https://scholar.google.com/" target="_blank"><b>https://scholar.google.com/</b></a>
@@ -368,7 +370,7 @@
             .col-lg-auto.col-xs-12
               figure
                 img(src="@/assets/curso/temas/tema2/img24_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-12.left-text
+            .col-lg-9.col-xs-4
               h5 #[i Mendeley]
               p.txt-t2.mt-3 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
               p.txt-t2.mt-3 <a href="https://www.mendeley.com/?interaction_required=true" target="_blank"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
@@ -378,7 +380,7 @@
             .col-lg-auto.col-xs-12
               figure
                 img(src="@/assets/curso/temas/tema2/img23_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-12.left-text
+            .col-lg-9.col-xs-4
               p.txt-t22 <b>Bases de datos públicas</b>
               p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información. Por ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
               p.mt-3 <a href="https://bibliotecas.unal.edu.co" target="_blank"><b>https://bibliotecas.unal.edu.co</b></a>
@@ -387,7 +389,7 @@
             .col-lg-auto.col-xs-12
               figure
                 img(src="@/assets/curso/temas/tema2/img24_tema2.svg", alt="alt").img100
-            .col-lg-12.col-xs-12.left-text
+            .col-lg-9.col-xs-4
               h5 Biblioteca SENA
               p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales, mundialmente reconocidas.
               p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/" target="_blank"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>

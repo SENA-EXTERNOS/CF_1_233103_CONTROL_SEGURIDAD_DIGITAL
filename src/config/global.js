@@ -178,59 +178,31 @@ export default {
   referencias: [
     {
       referencia:
-        'Balda, M. V., & Vicenzi, A. L. (1997). JAD-CASE: Administrador de flujo de tareas y documentos para la especificación de requerimientos. ARG-UNLP-TDG-0000000075. Tesis de grado. Universidad Nacional de La Plata. SEDICI.',
-      link: 'http://sedici.unlp.edu.ar/handle/10915/2158',
-    },
-    {
-      referencia:
-        'Bermúdez, R. (2017). ¿Cómo utilizar el método de observación? Sistema de Guías para la observación del desempeño profesional docente. GRIN.',
-      link: 'https://www.grin.com/document/365349',
-    },
-    {
-      referencia:
-        'Chiavenato, I. (2007). Introducción a la teoría general de la administración 7ª edición. McGraw Hill.',
+        'Chiavenato, I. (2007). <em>Introducción a la teoría general de la administración</em> 7ª edición. McGraw Hill.',
       link:
         'https://esmirnasite.files.wordpress.com/2017/07/i-admon-chiavenato.pdf',
     },
     {
       referencia:
-        'Czinkota, M., Kotabe, M. (2001). Administración de Mercadotecnia Segunda Edición. International Thomson Editores.',
+        'Czinkota, M., Kotabe, M. (2001). <em>Administración de Mercadotecnia Segunda Edición</em>. International Thomson Editores.',
       link: '',
     },
     {
       referencia:
-        'Díaz, L. (2011). La observación. Facultada de Psicología UNAM.',
+        'Díaz, L. (2011). <em>La observación</em>. Facultada de Psicología UNAM.',
       link:
         'http://www.psicologia.unam.mx/documentos/pdf/publicaciones/La_observacion_Lidia_Diaz_Sanjuan_Texto_Apoyo_Didactico_Metodo_Clinico_3_Sem.pdf',
     },
     {
       referencia:
-        'El modelo en cascada: desarrollo secuencial de software. (2019). El modelo en cascada: desarrollo secuencial de software. Digital Guide IONOS.',
+        'Digital Guide IONOS. (2019) <em>El modelo en cascada: desarrollo secuencial de software</em>.',
       link:
         'https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/el-modelo-en-cascada/',
     },
     {
       referencia:
-        'Ferrell O. y Hirt G. (2004). Introducción a los Negocios en un Mundo Cambiante. Cuarta Edición. McGraw-Hill Interamericana.',
+        'Ferrell O. y Hirt G. (2004). <em>Introducción a los Negocios en un Mundo Cambiante</em>. Cuarta Edición. McGraw-Hill Interamericana.',
       link: '',
-    },
-    {
-      referencia:
-        'Características necesarias para una buena calidad de la información. (2016).PowerData',
-      link:
-        'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/caracteristicas-necesarias-para-una-buena-calidad-de-la-informacion#:~:text=Tanto%20en%20nuestro%20mundo%20tecnol%C3%B3gico,%2C%20oportunidad%2C%20relevancia%20y%20comprensibilidad.',
-    },
-    {
-      referencia:
-        'ISO 27001 ¿Cómo se debe realizar la clasificación de la información? (2017, septiembre 14). Seguridad de la información.',
-      link:
-        'https://www.pmg-ssi.com/2017/09/iso-27001-clasificacion-de-la-informacion-2/',
-    },
-    {
-      referencia:
-        'Thompson, I. (2014). Conozca cuál es la definición de información desde distintos puntos de vista. Promonegocios.net.',
-      link:
-        'https://www.promonegocios.net/mercadotecnia/definicion-informacion.html',
     },
   ],
   creditos: {

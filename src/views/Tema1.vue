@@ -200,16 +200,16 @@
                 ul.mt-3
                     li  
                       i.fas.fa-check.lista-ul--color_t1  
-                      |  Académica
+                      |  Académica.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  Procesos industriales
+                      |  Procesos industriales.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  Financiera
+                      |  Financiera.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  Personal
+                      |  Personal.
           
           .row(titulo="Clasificación según dependencia o área de trabajo")
             .col-md-6
@@ -221,19 +221,19 @@
                 ul.mt-3
                     li  
                       i.fas.fa-check.lista-ul--color_t1  
-                      |  Contable
+                      |  Contable.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  De proyectos
+                      |  De proyectos.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  De contratación
+                      |  De contratación.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  De mantenimiento
+                      |  De mantenimiento.
                     li  
                       i.fas.fa-check.lista-ul--color_t1
-                      |  De recursos humanos  
+                      |  De recursos humanos.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
