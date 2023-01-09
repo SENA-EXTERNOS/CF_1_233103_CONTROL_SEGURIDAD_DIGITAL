@@ -24,7 +24,7 @@
             p Las metodologías mencionadas no son las únicas existentes; se trata solo de opciones que merecen ser conocidas y aplicadas en labores de grupos de trabajo.
 
     .row.mt-5
-      h3 Metodología Ágil
+      h3 Metodologías ágiles
 
     .row
       .col-lg-3

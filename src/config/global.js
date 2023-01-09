@@ -31,15 +31,6 @@ export default {
         numero: '1',
         titulo: 'Fundamentos y teoría de la información.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo:
-              'Definiciones básicas: información, datos, metodología, instrumentos, comunicación.',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {

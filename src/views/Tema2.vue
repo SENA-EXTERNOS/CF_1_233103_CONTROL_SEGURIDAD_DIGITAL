@@ -430,7 +430,7 @@
                   h3.mb-1 Fuentes en la red
                   p.text-small Amplíe su conocimiento de los aspectos más importantes sobre los métodos de recolección de información, explorando el documento que aquí se propone.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_anaexo3_fuentes_en_la_red.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_anaexo3.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download          
     

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Fundamentos y teoría de la información.
+      h1 Fundamentos y teoría de la información
 
     .row.mt-3
       .col-lg-12
@@ -16,9 +16,8 @@
       .col-lg-12
           p Para iniciar a adentrarse en el tema de la Información, se requiere definir el concepto y hacer un acercamiento a la concepción que algunos teóricos tiene sobre la misma:
 
-    separador
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Definiciones básicas: información, datos, metodología, instrumentos, comunicación.
+    .row.mt-5
+      h3 Definiciones básicas: información, datos, metodología, instrumentos, comunicación.
 
     .row.mt-5
       .col-lg-12
