@@ -27,7 +27,7 @@
                   h3.mb-1 Información de calidad
                   p.text-small Para introducirse en lo relacionado con las características de una información de alta calidad, explore el documento que aquí se propone. Haga estudio consciente del mismo y continúe con las temáticas del componente formativo.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_ANEXO1_información_de_calidad.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_Anexo1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -98,7 +98,7 @@
                   h3.mb-1 Pasos para la observación 
                   p.text-small Aprópiese de los aspectos clave de la recolección de información a través de la observación; explore el documento que aquí se propone
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_Anexo2_pasos_de_la_observación.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/CF1_Anexo2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
