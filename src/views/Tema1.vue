@@ -59,13 +59,12 @@
 
             .row.justify-content-center
               .col-md-4
-                p
+                p Portada: introducción a los negocios en un mundo cambiante
                 figure
                   img(src='@/assets/curso/temas/tema1/img5_tema1.svg', alt='Texto que describa la imagen')
                   figcaption Fotografía del autor
               .col-md-8.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1 Portada: introducción a los negocios en un mundo cambiante
                   p.mt-3.color-cajon-t1.mb-5 Para Ferrell y Hirt, la información “comprende los datos y conocimientos que se usan en la toma de decisiones”.
 
         
@@ -154,7 +153,7 @@
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Información verbal: </b>sinformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
+                    |  <b>Información verbal: </b>inforformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
                     |  <b>Medio físico papel: </b>información impresa o escrita en papel, que debe ser archivada físicamente para su preservación.
@@ -169,16 +168,13 @@
                     |  <b>Documentos electrónicos: </b> son documentos generados y almacenados en computadoras o dispositivos digitales sin copia física.
          
           .row(titulo="Clasificación según el grado de confidencialidad o sensibilidad")
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
-                
-            .col-md-6.mb-4.mb-md-0
+          
+            .col-md-12.mb-4.mb-md-0
               p 
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Publico: </b>información poco crítica para la empresa; cualquier persona interna o externa a esta, puede tener acceso a ella. Por ejemplo, portafolios de servicio, información comercial y publicidad.
+                    |  <b>Público: </b>información poco crítica para la empresa; cualquier persona interna o externa a esta, puede tener acceso a ella. Por ejemplo, portafolios de servicio, información comercial y publicidad.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
                     |  <b>Uso interno: </b>limitado solo a quienes hacen parte de la empresa y con un valor bajo de confidencialidad.
@@ -190,11 +186,8 @@
                     |  <b>Confidencial: </b> información altamente sensible a la que solo debe tener acceso un grupo muy reducido de personas, como secretos de producción industrial, códigos de programación, configuración de equipos de red y contraseñas.
 
           .row(titulo="Clasificación según área de interés")
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
-                
-            .col-md-6.mb-4.mb-md-0
+            
+            .col-md-12.mb-4.mb-md-0
               p Aunque no está definida como tal en la norma, la información puede ser clasificada según el área de interés o dependencia a la que esté asociada como, por ejemplo:
                 ul.mt-3
                     li  
@@ -211,11 +204,8 @@
                       |  Personal.
           
           .row(titulo="Clasificación según dependencia o área de trabajo")
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema1/img12_tema1.svg', alt='Texto que describa la imagen')
-                
-            .col-md-6.mb-4.mb-md-0
+            
+            .col-md-12.mb-4.mb-md-0
               p La información se clasifica según el área de la compañía en donde se produce, circula o donde, por su contenido, es pertinente (dependencia o área):
                 ul.mt-3
                     li  

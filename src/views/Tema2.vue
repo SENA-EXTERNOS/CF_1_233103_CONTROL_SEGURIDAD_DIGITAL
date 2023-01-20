@@ -244,7 +244,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT1_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5 
-                  p.mb-0 Identificar el(los) objetivo(s) que justifiquen la formulación y desarrollo de la prueba para obtener la información deseada.
+                  p.mb-0 1. Identificar el(los) objetivo(s) que justifiquen la formulación y desarrollo de la prueba para obtener la información deseada.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -255,7 +255,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT2_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5  
-                  p.mb-0 Reconocer la población o grupo de personas que desarrollarán la prueba y los recursos técnicos disponibles para su realización.
+                  p.mb-0 2. Reconocer la población o grupo de personas que desarrollarán la prueba y los recursos técnicos disponibles para su realización.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -266,7 +266,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT3_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5  
-                  p.mb-0 Definir qué tipo de preguntas y bajo qué dinámicas o recursos se desarrollará el cuestionario.
+                  p.mb-0 3. Definir qué tipo de preguntas y bajo qué dinámicas o recursos se desarrollará el cuestionario.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -277,7 +277,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT4_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5
-                  p.mb-0 Formular preguntas que ayuden a responder los objetivos establecidos y que sean compatibles con las dinámicas utilizadas.
+                  p.mb-0 4. Formular preguntas que ayuden a responder los objetivos establecidos y que sean compatibles con las dinámicas utilizadas.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -288,7 +288,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT5_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5 
-                  p.mb-0 Realizar la prueba.
+                  p.mb-0 5. Realizar la prueba.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -299,7 +299,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT6_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5  
-                  p.mb-0 Recolectar, organizar y analizar los resultados.
+                  p.mb-0 6. Recolectar, organizar y analizar los resultados.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -310,7 +310,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT7_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5  
-                  p.mb-0 Concluir a partir de los resultados obtenidos.
+                  p.mb-0 7. Concluir a partir de los resultados obtenidos.
 
         .tarjeta.color-fondo-anexo.p-4
           .row.justify-content-center.mb-5
@@ -321,7 +321,7 @@
                     img(src="@/assets/curso/temas/tema2/imgT8_tema2.svg", alt="alt")
                 .crd_hover_txt--body
                   h4.mt-5
-                  p.mb-0 Realizar informe de la prueba.
+                  p.mb-0 8. Realizar informe de la prueba.
             
     //tarjeta-fin
     .row.mt-5
