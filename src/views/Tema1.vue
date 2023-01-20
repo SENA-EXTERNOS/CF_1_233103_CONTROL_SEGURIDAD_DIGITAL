@@ -27,7 +27,7 @@
       .col-lg-12.bg-3
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
-            .row.justify-content-center
+            .row.justify-content-center.p-2
               .col-md-4
                 p Chiavenato, Idalberto. 
                 figure
@@ -37,7 +37,7 @@
                 .cajon.color-t1.p-4.mt-3
                   p.color-cajon-t1.mb-5 Según Idalberto Chiavenato, la información consiste en un “conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas…”.
 
-            .row.justify-content-center
+            .row.justify-content-center.p-2
               .col-md-4
                 p RAE
                 figure
@@ -47,7 +47,7 @@
                 .cajon.color-t1.p-4.mt-3
                   p.color-cajon-t1.mb-5 Por su parte, el diccionario de la RAE la define como “ Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que ya se poseen sobre una materia determinada”.
 
-            .row.justify-content-center
+            .row.justify-content-center.p-2
               .col-md-4
                 p Michael R. Czinkota 
                 figure
@@ -57,7 +57,7 @@
                 .cajon.color-t1.p-4.mt-3
                   p.color-cajon-t1.mb-5 Según Czinkota y Kotabe, la información consiste en “datos seleccionados y ordenados con un propósito específico”.
 
-            .row.justify-content-center
+            .row.justify-content-center.p-2
               .col-md-4
                 p Portada: introducción a los negocios en un mundo cambiante
                 figure
@@ -153,7 +153,7 @@
                 ul.mt-3
                   li 
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Información verbal: </b>inforformación recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
+                    |  <b>Información verbal: </b>información recibida de manera verbal de la cual se deja un precedente para su seguimiento, este tipo de información no es muy recomendable en entornos empresariales.
                   li  
                     i.fas.fa-check.lista-ul--color_t1  
                     |  <b>Medio físico papel: </b>información impresa o escrita en papel, que debe ser archivada físicamente para su preservación.
