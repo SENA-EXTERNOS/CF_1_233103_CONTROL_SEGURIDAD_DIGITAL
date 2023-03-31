@@ -342,57 +342,54 @@
       .col-lg-12
           p Las siguientes, son algunas opciones de búsqueda de información que se encuentran en la web.
 
-    //beto   
-    .row.justify-content-center.mb-5
-      .col-lg-10.position-relative
-        h3.mb-4.text-center.txt--purpura  
-        .crd.crd--avatarHorizontal.crd--first.py-4
-          .row.align-items-center
-            .col-lg-auto.col-xs-8
-              figure
-                img(src="@/assets/curso/temas/tema2/img20_tema2.svg", alt="alt").img100
-            .col-lg-9.col-xs-4
-              h5 Las bases de datos
-              p.txt-t2 Son grandes plataformas donde se puede acceder a información como artículos, revistas, libros de fuentes indexadas y algunas sobre temas específicos. Es importante tener algo de dominio del tema sobre el que se consulta.
+    //teban
+    .row.my-5.justify-content-center
+      .col-lg-10
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img20_tema2.svg' alt='AvatarTop').img-avatar-b
+          .tarjeta.tarjeta-azul1
+            .p-4
+              h3.text-white Las bases de datos
+              p.text-white Son grandes plataformas donde se puede acceder a información como artículos, revistas, libros de fuentes indexadas y algunas sobre temas específicos. Es importante tener algo de dominio del tema sobre el que se consulta.
 
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-lg-auto.col-xs-12
-              figure
-                img(src="@/assets/curso/temas/tema2/img21_tema2.svg", alt="alt").img100
-            .col-lg-9.col-xs-4
-              p.txt-t22 <b><em>Google scholar</em></b>
-              p.mt-3 Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
-              p.mt-3 <a href="https://scholar.google.com/" target="_blank"><b>https://scholar.google.com/</b></a>
-        
-        .crd.crd--avatarHorizontal.crd--last.py-4
-          .row.align-items-center
-            .col-lg-auto.col-xs-12
-              figure
-                img(src="@/assets/curso/temas/tema2/img24_tema2.svg", alt="alt").img100
-            .col-lg-9.col-xs-4
-              h5 #[i Mendeley]
-              p.txt-t2.mt-3 Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
-              p.txt-t2.mt-3 <a href="https://www.mendeley.com/?interaction_required=true" target="_blank"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img21_tema2.svg' alt='AvatarTop').img-avatar-b
+          .tarjeta.tarjeta-gris1
+            .p-4
+              h3 #[i Google scholar]
+              p Buscador de Google especializado en publicaciones de carácter académico sobre cualquier tema que se requiera.
+              p <a href="https://scholar.google.com/" target="_blank"><b>https://scholar.google.com/</b></a>
+   
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img22_tema2.svg' alt='AvatarTop').img-avatar-b
+          .tarjeta.tarjeta-azul2
+            .p-4
+              h3.text-white #[i Mendeley]
+              p.text-white Plataforma donde se accede a información de alto nivel académico sobre diversos temas. Se pueden encontrar libros, artículos y publicaciones científicas.
+              p.text-white <a href="https://www.mendeley.com/?interaction_required=true" target="_blank"><b style="color:white">https://www.mendeley.com/?interaction_required=true</b></a>
 
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-lg-auto.col-xs-12
-              figure
-                img(src="@/assets/curso/temas/tema2/img23_tema2.svg", alt="alt").img100
-            .col-lg-9.col-xs-4
-              p.txt-t22 <b>Bases de datos públicas</b>
-              p.mt-3 Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información. Por ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
-              p.mt-3 <a href="https://bibliotecas.unal.edu.co" target="_blank"><b>https://bibliotecas.unal.edu.co</b></a>
-        .crd.crd--avatarHorizontal.crd--last.py-4
-          .row.align-items-center
-            .col-lg-auto.col-xs-12
-              figure
-                img(src="@/assets/curso/temas/tema2/img24_tema2.svg", alt="alt").img100
-            .col-lg-9.col-xs-4
-              h5 Biblioteca SENA
-              p.txt-t2 Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales, mundialmente reconocidas.
-              p.txt-t2.mt-3 <a href="https://biblioteca.sena.edu.co/" target="_blank"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img23_tema2.svg' alt='AvatarTop').img-avatar-b
+          .tarjeta.tarjeta-gris1
+            .p-4
+              h3 Bases de datos públicas
+              p Las universidades e instituciones públicas poseen plataformas de consulta y bibliotecas virtuales de libre acceso con el fin de buscar todo tipo de información. Por ejemplo, sistema de bibliotecas Universidad Nacional de Colombia.
+              p <a href="https://bibliotecas.unal.edu.co" target="_blank"><b>https://bibliotecas.unal.edu.co</b></a>
+
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img24_tema2.svg' alt='AvatarTop').img-avatar-b
+          .tarjeta.tarjeta-azul3
+            .p-4
+              h3.text-white Biblioteca SENA
+              p.text-white Esta herramienta de búsqueda da acceso a libros, revistas, guías y producción académica, enfocada en la especialidad de la institución y la formación para el trabajo. Como aprendiz SENA podrá ingresar con el usuario y acceder desde allí a bases de datos de diferentes temáticas y editoriales, mundialmente reconocidas.
+              p.text-white <a href="https://biblioteca.sena.edu.co/" target="_blank"><b style="color:white">https://biblioteca.sena.edu.co/</b></a>
+
+
     //beto-fin
     .row.mt-5
       .col-lg-l12
@@ -499,7 +496,7 @@
      
     .row.justify-content-center.mb-5
       .col-8.col-lg-4
-        p #[b Tipos de instrumentos:]z para facilitar el análisis y la apropiación de los instrumentos es importante estos se clasifiquen según:
+        p #[b Tipos de instrumentos:] para facilitar el análisis y la apropiación de los instrumentos es importante estos se clasifiquen según:
         figure
           img(src="@/assets/curso/temas/tema2/img27_tema2.svg", alt="alt")
       .col-lg-8
@@ -508,13 +505,13 @@
             ul
               li 
                 i.fas.fa-check.lista-ul--color_t1
-                |  Administrativos.
+                |   Administrativos.
               li  
                 i.fas.fa-check.lista-ul--color_t1  
-                | Para adquirir información o para fines de investigación.
+                |   Para adquirir información o para fines de investigación.
               li  
                 i.fas.fa-check.lista-ul--color_t1
-                |  De control: formatos y recursos para el control de procesos.
+                |   De control: formatos y recursos para el control de procesos.
 
           p(numero="2" titulo="El medio de implementación: ")
             ul
@@ -613,9 +610,8 @@
           .tarjeta.tarjeta--amarilla-1.p-4
             h2.text-center.txt-t2.mt-5 <em>Herramientas para diseño de piezas gráficas y material visual: </em>
             p.text-center.txt-t2 Se destacan herramientas con versión gratuita y en línea como <em>‘Canva y Piktochart’</em> las cuales son opciones interesantes para la creación de infografías, material visual de instrumentos e informes diferentes a las tradicionales de <em>Office</em> y similares. 
-            p.text-venter.txt-t2.mt-3 En versiones con licencia se encuentran las aplicaciones de <em>Adobe,</em> las cuales se ubican entre las más eficientes para el desarrollo de instrumentos con alto contenido visual. 
+            p.text-center.txt-t2.mt-3 En versiones con licencia se encuentran las aplicaciones de <em>Adobe,</em> las cuales se ubican entre las más eficientes para el desarrollo de instrumentos con alto contenido visual. 
 
-   
 
 
 

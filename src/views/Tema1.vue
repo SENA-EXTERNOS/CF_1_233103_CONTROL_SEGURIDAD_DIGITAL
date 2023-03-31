@@ -34,8 +34,8 @@
                   img(src='@/assets/curso/temas/tema1/img2_tema1.svg', alt='Texto que describa la imagen')
                   figcaption Fotografía del autor
               .col-md-8.mb-4.mb-md-0
-                .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1.mb-5 Según Idalberto Chiavenato, la información consiste en un “conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas…”.
+                .cajon.color-t1.p-4.mt-5
+                  p.color-cajon-t1.mb-4.mt-3 Según Idalberto Chiavenato, la información consiste en un “conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas…”.
 
             .row.justify-content-center.p-2
               .col-md-4
