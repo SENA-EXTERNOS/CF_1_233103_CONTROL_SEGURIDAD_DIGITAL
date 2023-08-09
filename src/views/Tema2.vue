@@ -7,14 +7,6 @@
         span 2
       h1 Metodología para la recolección de información
 
-    .row.justify-content-center.align-items-center
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema2/img1.svg")
-      .col-lg-8
-        p Existen diferentes metodologías para la recolección de información o datos, cada uno de ellos es un mecanismo e instrumento que se utiliza para reunir y medir información de forma organizada y con un objetivo específico. Usualmente estas metodologías se utilizan en investigación científica y empresarial, estadística y marketing.
-
-
     .row.cajon.tema13.mt-5
       .col-lg-12
         .tarjeta.color-secundario.p-3.mb-5
@@ -225,13 +217,6 @@
 
     .row.mt-5
       p Sobre el procedimiento para implementación de pruebas y cuestionarios, tenga en cuenta el orden de los pasos que, por demás, son muy similares a los expuestos en métodos anteriores:
-    
-    .row.cajon.tema13.mt-5 
-      .cajon.color-t2.p-4
-        .row
-          .col-lg-10 
-            p <b>Procedimiento para implementación:</b> los pasos son bastante similares a los expuestos en métodos anteriores, se recomienda que el orden sea:
-
 
     .row.mt-5
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -434,7 +419,6 @@
     .row.mt-5
       .col-lg-12
         h5 Buenas prácticas para la comunicación oral y escrita.  
-        p.mt-3 Para que en la organización la comunicación sea asertiva, es necesario crear en el personal hábitos de buenas prácticas para comunicarse.  
     
     .row.mt-5
       .col-lg-4 

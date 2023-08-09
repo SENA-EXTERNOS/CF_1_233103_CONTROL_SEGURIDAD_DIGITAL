@@ -6,67 +6,57 @@
       .titulo-principal__numero
         span 1
       h1 Fundamentos y teoría de la información
+    p.mb-5 Como se ha podido apreciar en el material de introducción, el término sobre el que girará toda la temática de este contenido, será la ‘información’. Al ser técnico en control de la seguridad digital, es importante apropiar una definición de este y de otros términos que guardan completa relación y mención frecuente.
 
     .row.mt-3
       .col-lg-12
         figure
           img(src="@/assets/curso/temas/tema1/img1_tema1.svg", alt="alt")
 
-    .row.mt-5
+    .row.my-5
       .col-lg-12
           p Para iniciar a adentrarse en el tema de la Información, se requiere definir el concepto y hacer un acercamiento a la concepción que algunos teóricos tiene sobre la misma:
-
-    .row.mt-5
-      h3 Definiciones básicas: información, datos, metodología, instrumentos, comunicación.
-
-    .row.mt-5
-      .col-lg-12
-        p Para iniciar con el primer tema de estudio, es necesario definir el concepto central a tratar, la ‘información’, conocer cómo los principales teóricos la definen:
 
     .row.justify-content-center.align-items-center
       .col-lg-12.bg-3
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
             .row.justify-content-center.p-2
+              h4.mb-4.text-center Chiavenato, Idalberto. 
               .col-md-4
-                p Chiavenato, Idalberto. 
                 figure
                   img(src='@/assets/curso/temas/tema1/img2_tema1.svg', alt='Texto que describa la imagen')
                   figcaption Fotografía del autor
-              .col-md-8.mb-4.mb-md-0
-                .cajon.color-t1.p-4.mt-5
+              .col-md-7.mb-4.mb-md-0
+                .cajon.color-t1.p-4
                   p.color-cajon-t1.mb-4.mt-3 Según Idalberto Chiavenato, la información consiste en un “conjunto de datos que poseen un significado, de modo tal que reducen la incertidumbre y aumentan el conocimiento de quien se acerca a contemplarlos. Estos datos se encuentran disponibles para su uso inmediato y sirven para clarificar incertidumbres sobre determinados temas…”.
-
             .row.justify-content-center.p-2
+              h4.mb-4.text-center Portada: introducción a los negocios en un mundo cambiante
               .col-md-4
-                p RAE
-                figure
-                  img(src='@/assets/curso/temas/tema1/img3_tema1.svg', alt='Texto que describa la imagen')
-                  
-              .col-md-8.mb-4.mb-md-0
-                .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1.mb-5 Por su parte, el diccionario de la RAE la define como “ Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que ya se poseen sobre una materia determinada”.
-
-            .row.justify-content-center.p-2
-              .col-md-4
-                p Michael R. Czinkota 
-                figure
-                  img(src='@/assets/curso/temas/tema1/img4_tema1.svg', alt='Texto que describa la imagen')
-                  figcaption Fotografía del autor
-              .col-md-8.mb-4.mb-md-0
-                .cajon.color-t1.p-4.mt-3
-                  p.color-cajon-t1.mb-5 Según Czinkota y Kotabe, la información consiste en “datos seleccionados y ordenados con un propósito específico”.
-
-            .row.justify-content-center.p-2
-              .col-md-4
-                p Portada: introducción a los negocios en un mundo cambiante
                 figure
                   img(src='@/assets/curso/temas/tema1/img5_tema1.svg', alt='Texto que describa la imagen')
                   figcaption Fotografía del autor
-              .col-md-8.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 .cajon.color-t1.p-4.mt-3
                   p.mt-3.color-cajon-t1.mb-5 Para Ferrell y Hirt, la información “comprende los datos y conocimientos que se usan en la toma de decisiones”.
-
+            .row.justify-content-center.p-2
+              h4.mb-4.text-center Michael R. Czinkota 
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/temas/tema1/img4_tema1.svg', alt='Texto que describa la imagen')
+                  figcaption Fotografía del autor
+              .col-md-7.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1.mb-5 Según Czinkota y Kotabe, la información consiste en “datos seleccionados y ordenados con un propósito específico”.
+            .row.justify-content-center.p-2
+              h4.mb-4.text-center RAE
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/temas/tema1/img3_tema1.svg', alt='Texto que describa la imagen')
+                  
+              .col-md-7.mb-4.mb-md-0
+                .cajon.color-t1.p-4.mt-3
+                  p.color-cajon-t1.mb-5 Por su parte, el diccionario de la RAE la define como “ Comunicación o adquisición de conocimientos que permiten ampliar o precisar los que ya se poseen sobre una materia determinada”.
         
     .row.mt-5
       .col-lg-12

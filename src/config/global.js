@@ -113,6 +113,13 @@ export default {
       link:
         'https://www.zendesk.com.mx/blog/comunicacion-efectiva-que-es/#:~:text=La%20comunicaci%C3%B3n%20efectiva%20se%20define,lo%20que%20se%20ha%20transmitido',
     },
+    {
+      tema: 'Metodología para la recolección de información',
+      referencia:
+        'Canal USB. (2015). <i>Instrumentos para recolectar la información</i> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=P2jt6nrJBMM',
+    },
   ],
   glosario: [
     {
@@ -194,6 +201,12 @@ export default {
       referencia:
         'Ferrell O. y Hirt G. (2004). <em>Introducción a los Negocios en un Mundo Cambiante</em>. Cuarta Edición. McGraw-Hill Interamericana.',
       link: '',
+    },
+    {
+      referencia:
+        'Thompson, I. (2014). <i>Conozca cuál es la definición de información desde distintos puntos de vista</i>. Promonegocios.net.',
+      link:
+        'https://www.promonegocios.net/mercadotecnia/definicion-informacion.html',
     },
   ],
   creditos: {

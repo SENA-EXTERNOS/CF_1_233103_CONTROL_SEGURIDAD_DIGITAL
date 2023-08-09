@@ -1,1 +1,1 @@
-module.exports = 'Técnico en Control de la Seguridad Digital'
+module.exports = 'Recolección de información para la seguridad digital'

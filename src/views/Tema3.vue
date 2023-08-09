@@ -83,11 +83,15 @@
         p El método de la ruta crítica permite identificar la secuencia de actividades más importantes de un proyecto o tarea. En su implementación, las demás actividades girarán en torno a la ruta principal.
         p.color-intro.mt-3  <b>A continuación, algunos aspectos generales de esta metodología.</b>
 
-
-    .row.mt-5
-      .col-lg-12
-        figure
-          img(src="@/assets/curso/temas/tema3/img7_tema3.svg", alt="alt") 
+    .row.justify-content-center.align-items-stretch.text-center.mb-5           
+      .col-lg-6.bg1.p-4.text-white(data-aos="fade-left")
+        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='')
+        h4(data-aos="flip-down") Ventajas
+        p(data-aos="fade-down").mb-0 Se identifican las prioridades, mejora la planeación y permite el ahorro en recursos. 
+      .col-lg-6.bg2.p-4(data-aos="fade-right")
+        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='')
+        h4(data-aos="flip-down") ¿Cómo identificar la ruta crítica?
+        p(data-aos="fade-down").mb-0 Se debe desglosar la tarea en subtareas pequeñas, ordenarlas según su realización; la línea que tenga más de estas en secuencia y en la que estén actividades necesarias para empezar otras, trazarán la ruta crítica del trabajo. 
 
     .row.mt-5
       .col-lg-12
