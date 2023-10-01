@@ -37,7 +37,7 @@
     
     .row
       .col-lg-12
-        p La observación es, tal vez, el proceso más común e intuitivo con cual se puede obtener información, a través del planteamiento de interrogantes iniciales o, en otros casos, encontrando pistas claves sobre el objeto, aspecto o situación de la que se requiere información. 
+        p La observación es, tal vez, el proceso más común e intuitivo con el cual se puede obtener información, a través del planteamiento de interrogantes iniciales o, en otros casos, encontrando pistas claves sobre el objeto, aspecto o situación de la que se requiere información. 
 
         p A continuación, algunas pautas sobre cómo aplicar el método de la observación:
 
@@ -184,7 +184,7 @@
     
     .row.mt-3
       .col-lg-12
-        p Tenga presentes las generalidades y aspectos clave que, sobre la metodología JAD, se muestran a continuación:
+        p Tenga presente las generalidades y aspectos clave que, sobre la metodología JAD, se muestran a continuación:
 
     .row.mt-5
       .col-lg-12
@@ -459,7 +459,7 @@
         p Antes de enviar un documento o correo, verificar lo escrito, leer atentamente y pensar si será entendido fácilmente por la otra persona.
 
       .tarjeta.color-acento-botones-puntos.p-3(x="28%" y="32%" numero="")
-        p #[b Usar los canales de comunicación adecuado]
+        p #[b Usar los canales de comunicación adecuados]
         p Se debe evitar el abuso de las llamadas, WhatsApp y líneas personales de otros. Sí implementar el uso de los canales oficiales establecidos por la empresa.
 
       .tarjeta.color-acento-botones-puntos.p-3(x="45%" y="43%" numero="")
@@ -480,7 +480,7 @@
      
     .row.justify-content-center.mb-5
       .col-8.col-lg-4
-        p #[b Tipos de instrumentos:] para facilitar el análisis y la apropiación de los instrumentos es importante estos se clasifiquen según:
+        p #[b Tipos de instrumentos:] para facilitar el análisis y la apropiación de los instrumentos es importante que estos se clasifiquen según:
         figure
           img(src="@/assets/curso/temas/tema2/img27_tema2.svg", alt="alt")
       .col-lg-8
@@ -628,7 +628,7 @@ export default {
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Ventajas del Modelo JAD',
+        titulo: 'Ventajas del modelo JAD',
         texto:
           '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Levantamiento de los requerimientos del usuario. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Mejoras progresivas y productos preliminares más rápidos. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Análisis y diseño continuo, al requerir de un equipo de trabajo más amplio. </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img16_tema2.svg'),
@@ -637,7 +637,7 @@ export default {
       {
         titulo: 'Desventajas del modelo JAD',
         texto:
-          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Todos los participantes del equipo deben invertir una cantidad de tiempo considerable y, difícilmente, podrán realizar otras labores diferentes a las del método. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Requiere de un alto nivel de compromiso, cuando un miembro falla en su preparación y responsabilidades retrasa a todo el grupo. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> El equipo requiere de un alto nivel de sincronización y trabajo en equipo; esto puede ocasionar dificultades cuando se está iniciando en la implementación de este método. </li></ul>',
+          '<ul><li> <i class= "fas fa-check lista-ul--color_t1"> </i> Todos los participantes del equipo deben invertir una cantidad de tiempo considerable y difícilmente, podrán realizar otras labores diferentes a las del método. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> Requiere de un alto nivel de compromiso, cuando un miembro falla en su preparación y responsabilidades retrasa a todo el grupo. </li> <li><i class= "fas fa-check lista-ul--color_t1"> </i> El equipo requiere de un alto nivel de sincronización y trabajo en equipo; esto puede ocasionar dificultades cuando se está iniciando en la implementación de este método. </li></ul>',
         imagen: require('@/assets/curso/temas/tema2/img17_tema2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -15,7 +15,7 @@
 
     .row.my-5
       .col-lg-12
-          p Para iniciar a adentrarse en el tema de la Información, se requiere definir el concepto y hacer un acercamiento a la concepción que algunos teóricos tiene sobre la misma:
+          p Para iniciar a adentrarse en el tema de la información, se requiere definir el concepto y hacer un acercamiento a la concepción que algunos teóricos tiene sobre la misma:
 
     .row.justify-content-center.align-items-center
       .col-lg-12.bg-3
@@ -131,7 +131,7 @@
     
     .row.mt-5
       .col-lg-12
-          p A continuación, pueden explorar cada una las formas en las que se logra clasificar la información, según la norma ISO 27001.
+          p A continuación, pueden explorar cada una de las formas en las que se logra clasificar la información, según la norma ISO 27001.
 
 
     .row.mt-5
@@ -231,7 +231,7 @@
 
     .row.mt-5
       .col-lg-12
-        p Los siguientes son los algunos de los aspectos del sistema de gestión documental y su estructura:   
+        p Los siguientes son algunos de los aspectos del sistema de gestión documental y su estructura:   
 
 
     LineaTiempoC.color-cuadro.color-secundario(text-small).mt-5
