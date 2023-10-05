@@ -49,7 +49,7 @@
         p.tarjeta.color-acento-botones-t3 Características: se divide el problema o actividad a realizar en tareas pequeñas, estas se ubican en una línea de tiempo y se asignan en orden a cada colaborador, de manera que se puedan realizar en plazos pequeños y ver avances de forma rápida.
 
       .tarjeta.color-acento-botones.p-3(x="36%" y="58%" numero="")
-        p.tarjeta.color-acento-botones-t3 <em style="color:white"><b style="color:white"> Kanban:</b></em> método ágil basado en el seguimiento visual de los avances de la tarea, mediante tarjetas adhesivas, algún software o diagrama visual. En este se especifican las tareas y se asignan al colaborador indicado, permitiendo observar lo que se ha hecho, qué está en proceso y cuál culminó su realización.
+        p.tarjeta.color-acento-botones-t3 <em style="color:white"><b style="color:white"> Kanban:</b></em> método ágil basado en el seguimiento visual de los avances de la tarea, mediante tarjetas adhesivas, algún <em style="color:white">software</em> o diagrama visual. En este se especifican las tareas y se asignan al colaborador indicado, permitiendo observar lo que se ha hecho, qué está en proceso y cuál culminó su realización.
       
       .tarjeta.color-acento-botones.p-3(x="46%" y="78%" numero="")
         p.tarjeta.color-acento-botones-t3 <em style="color:white"><b style="color:white"> Scrum:</b></em> es otro método ágil basado en ciclos de trabajo o periodos de entrega fijos en días, semanas o incluso meses dependiendo del tamaño y dificultad de la tarea; el método incluye reuniones periódicas para la revisión de avances y realizar ajustes en las tareas programadas.

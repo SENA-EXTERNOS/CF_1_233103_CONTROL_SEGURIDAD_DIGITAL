@@ -167,7 +167,7 @@
     .row.mt-5
       .col-lg-12
         p <b>Metodología JAD</b>
-        p.mt-5 Esta metodología se implementa, principalmente, para el desarrollo de software, pero su procedimiento es aplicable al proceso de obtención de información.
+        p.mt-5 Esta metodología se implementa, principalmente, para el desarrollo de #[em software], pero su procedimiento es aplicable al proceso de obtención de información.
 
     .row.cajon.tema13.mt-5
       .col-lg-4
@@ -199,7 +199,7 @@
     .row.mt-5
       .col-lg-7.bg-1
         AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")
-          .row(titulo="Preguntas Cerradas: ")
+          .row(titulo="Preguntas cerradas: ")
             .col-md-12.mb-4.mb-md-0
               p Son determinadas por el diseñador del cuestionario y se asocian respuestas que usan dinámicas tipo: si/no, verdadero y falso, selección múltiple (A, B, C, D) y con una sola respuesta, entre otros. Este tipo de preguntas facilita la automatización para el análisis estadístico y calificación de la prueba.
 

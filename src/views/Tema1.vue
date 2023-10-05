@@ -152,7 +152,7 @@
                     |  <b>Correos electrónicos: </b>  abarca todo tipo de información enviada por este medio, sea solo texto o con componentes multimedia.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
-                    |  <b>Bases de datos: </b> grandes volúmenes de información que se guardan de forma digital en un formato o estructura en específico, que puede ser administrada y consultada mediante algún tipo de software de base de datos.
+                    |  <b>Bases de datos: </b> grandes volúmenes de información que se guardan de forma digital en un formato o estructura en específico, que puede ser administrada y consultada mediante algún tipo de #[em software] de base de datos.
                   li  
                     i.fas.fa-check.lista-ul--color_t1
                     |  <b>Documentos electrónicos: </b> son documentos generados y almacenados en computadoras o dispositivos digitales sin copia física.
@@ -193,7 +193,7 @@
                       i.fas.fa-check.lista-ul--color_t1
                       |  Personal.
           
-          .row(titulo="Clasificación según dependencia o área de trabajo")
+          .row(titulo="Clasificación según la dependencia o área de trabajo")
             
             .col-md-12.mb-4.mb-md-0
               p La información se clasifica según el área de la compañía en donde se produce, circula o donde, por su contenido, es pertinente (dependencia o área):
