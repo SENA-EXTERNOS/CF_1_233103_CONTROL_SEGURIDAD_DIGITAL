@@ -93,7 +93,7 @@ export default {
       tema: 'Fundamentos metodología JAD',
       referencia:
         'Balda, M. V., & Vicenzi, A. L. (1997). JAD-CASE: Administrador de flujo de tareas y documentos para la especificación de requerimientos.',
-      tipo: 'articulo web',
+      tipo: 'Articulo web',
       link:
         'https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/SEDICI_f725367834a083e25a5b484028c6a294#:~:text=JAD%20es%20una%20metodolog%C3%ADa%20estructurada,an%C3%A1lisis%20y%20dise%C3%B1o%20de%20sistemas',
     },
